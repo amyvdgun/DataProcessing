@@ -34,7 +34,7 @@ def extract_tvseries(dom):
     actors = []
     runtime = []
 
-    # get all the data and divide it in a div
+    # get the data and divide it in a div
     data = dom.find_all("div", {"class": "lister-item mode-advanced"})
 
     # get and add the titles of the series
