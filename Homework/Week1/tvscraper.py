@@ -10,11 +10,11 @@ from requests import get
 from requests.exceptions import RequestException
 from contextlib import closing
 from bs4 import BeautifulSoup
+from bs4 import SoupStrainer
 
 TARGET_URL = "http://www.imdb.com/search/title?num_votes=5000,&sort=user_rating,desc&start=1&title_type=tv_series"
 BACKUP_HTML = 'tvseries.html'
 OUTPUT_CSV = 'tvseries.csv'
-
 
 def extract_tvseries(dom):
     """
@@ -26,24 +26,76 @@ def extract_tvseries(dom):
     - Actors/actresses (comma separated if more than one)
     - Runtime (only a number!)
     """
+    
+    # create lists
+    title = []
+    rating = []
+    genre = []
+    actors = []
+    runtime = []
 
-    # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
-    # HIGHEST RATED TV-SERIES
-    # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
-    # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
+    # get all the data and divide it in a div
+    data = dom.find_all("div", {"class": "lister-item mode-advanced"})
 
-    return []   # REPLACE THIS LINE AS WELL AS APPROPRIATE
+    # get and add the titles of the series
+    for i in data:
+        titles = i.find("h3", {"class": "lister-item-header"})
+
+        title.append(titles.find("a").get_text(strip = True))
+
+    # get rating and add it
+    for j in data:
+        ratings = j.find("div", {"class": "inline-block ratings-imdb-rating"})
+
+        rating.append(ratings.find("strong").get_text(strip = True))
+
+    # add the genre
+    for k in data:
+        genre.append(k.find("span", {"class": "genre"}).get_text(strip = True))
+
+    # get and add the actors
+    for l in data:
+        actor = l.find("div", {"class": "lister-item-content"})
+
+        p = actor.find_all("p")[2].find_all("a")
+
+        # make a list for each series and add the actors
+        actorsnew = []
+        for i in p:
+            actorsnew.append(i.text)
+        actors.append(actorsnew)
+
+    # add the runtime
+    for m in data:
+        runtime.append(m.find("span", {"class": "runtime"}).get_text(strip = True))
+
+    # add all lists to one
+    tvseries = {"Title": title, "Rating": rating, "Genre": genre, "Actors": actors, "Runtime": runtime}
+
+    return tvseries
 
 
-def save_csv(outfile, tvseries):
+def save_csv(outfile, Tvseries):
     """
     Output a CSV file containing highest rated TV-series.
     """
     writer = csv.writer(outfile)
     writer.writerow(['Title', 'Rating', 'Genre', 'Actors', 'Runtime'])
 
-    # ADD SOME CODE OF YOURSELF HERE TO WRITE THE TV-SERIES TO DISK
+    series = list(tvseries.values())
 
+    # create different lists
+    title = series[0]
+    rating = series[1]
+    genre = series[2]
+    actors = series[3]
+    runtime = series[4]
+
+    # write for each series
+    for i in range(len(title)):
+        actorsnew = str(actors[i])
+        # write the lists into csv file
+        writer.writerow([title[i], rating[i], genre[i], actorsnew, runtime[i]])
 
 def simple_get(url):
     """
