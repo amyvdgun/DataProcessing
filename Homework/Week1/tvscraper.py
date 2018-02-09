@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# Name:
-# Student number:
+# Name: Amy van der Gun
+# Student number: 10791760
 """
 This script scrapes IMDB and outputs a CSV file with highest rated tv series.
 """
