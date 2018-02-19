@@ -1,15 +1,3 @@
-# BRON: KONINKLIJK NEDERLANDS METEOROLOGISCH INSTITUUT (KNMI)
-# Opmerking: door stationsverplaatsingen en veranderingen in waarneemmethodieken zijn deze tijdreeksen van dagwaarden mogelijk inhomogeen! Dat betekent dat deze reeks van gemeten waarden niet geschikt is voor trendanalyse. Voor studies naar klimaatverandering verwijzen we naar de gehomogeniseerde reeks maandtemperaturen van De Bilt <http://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt> of de Centraal Nederland Temperatuur <http://www.knmi.nl/kennis-en-datacentrum/achtergrond/centraal-nederland-temperatuur-cnt>.
-# 
-# 
-# STN      LON(east)   LAT(north)     ALT(m)  NAME
-# 260:         5.180       52.100       1.90  DE BILT
-# 
-# YYYYMMDD = Datum (YYYY=jaar MM=maand DD=dag); 
-# TX       = Maximum temperatuur (in 0.1 graden Celsius); 
-# 
-# STN,YYYYMMDD,   TX
-# 
 20170101,   19
 20170102,   68
 20170103,   71
