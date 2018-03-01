@@ -1,0 +1,842 @@
+[
+    {
+        "Country": "Afghanistan",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "59.668",
+        "GPA": "690.842629"
+    },
+    {
+        "Country": "Albania",
+        "Region": "Post-communist",
+        "LifeExpectancy": "77.347",
+        "GPA": "4247.485437"
+    },
+    {
+        "Country": "Algeria",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "74.313",
+        "GPA": "5583.61616"
+    },
+    {
+        "Country": "Argentina",
+        "Region": "Americas",
+        "LifeExpectancy": "75.927",
+        "GPA": "14357.41159"
+    },
+    {
+        "Country": "Armenia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "74.446",
+        "GPA": "3565.517575"
+    },
+    {
+        "Country": "Australia",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "82.052",
+        "GPA": "67646.10385"
+    },
+    {
+        "Country": "Austria",
+        "Region": "Europe",
+        "LifeExpectancy": "81.004",
+        "GPA": "48324.25404"
+    },
+    {
+        "Country": "Bangladesh",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "70.843",
+        "GPA": "858.9333626"
+    },
+    {
+        "Country": "Belarus",
+        "Region": "Post-communist",
+        "LifeExpectancy": "70.874",
+        "GPA": "6721.834908"
+    },
+    {
+        "Country": "Belgium",
+        "Region": "Europe",
+        "LifeExpectancy": "80.429",
+        "GPA": "44731.21948"
+    },
+    {
+        "Country": "Belize",
+        "Region": "Americas",
+        "LifeExpectancy": "69.795",
+        "GPA": "4674.293377"
+    },
+    {
+        "Country": "Benin",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "59.167",
+        "GPA": "807.688451"
+    },
+    {
+        "Country": "Bhutan",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "68.748",
+        "GPA": "2452.151588"
+    },
+    {
+        "Country": "Bolivia",
+        "Region": "Americas",
+        "LifeExpectancy": "67.45",
+        "GPA": "2645.290274"
+    },
+    {
+        "Country": "Bosnia and Herzegovina",
+        "Region": "Post-communist",
+        "LifeExpectancy": "76.175",
+        "GPA": "4494.640812"
+    },
+    {
+        "Country": "Botswana",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "64.249",
+        "GPA": "6935.593653"
+    },
+    {
+        "Country": "Brazil",
+        "Region": "Americas",
+        "LifeExpectancy": "73.907",
+        "GPA": "12157.30822"
+    },
+    {
+        "Country": "Bulgaria",
+        "Region": "Post-communist",
+        "LifeExpectancy": "73.913",
+        "GPA": "7333.355073"
+    },
+    {
+        "Country": "Burkina Faso",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "57.955",
+        "GPA": "673.0267834"
+    },
+    {
+        "Country": "Burundi",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "55.803",
+        "GPA": "244.1964862"
+    },
+    {
+        "Country": "Cambodia",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "67.467",
+        "GPA": "946.4766787"
+    },
+    {
+        "Country": "Cameroon",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "54.61",
+        "GPA": "1222.192142"
+    },
+    {
+        "Country": "Canada",
+        "Region": "Americas",
+        "LifeExpectancy": "81.654",
+        "GPA": "52737.77716"
+    },
+    {
+        "Country": "Chad",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "50.808",
+        "GPA": "972.6793451"
+    },
+    {
+        "Country": "Chile",
+        "Region": "Americas",
+        "LifeExpectancy": "81.05",
+        "GPA": "15253.33083"
+    },
+    {
+        "Country": "China",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "75.365",
+        "GPA": "6264.643878"
+    },
+    {
+        "Country": "Colombia",
+        "Region": "Americas",
+        "LifeExpectancy": "73.673",
+        "GPA": "7885.061292"
+    },
+    {
+        "Country": "Comoros",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "62.598",
+        "GPA": "750.3146086"
+    },
+    {
+        "Country": "Costa Rica",
+        "Region": "Americas",
+        "LifeExpectancy": "79.076",
+        "GPA": "9733.396931"
+    },
+    {
+        "Country": "Cote d'Ivoire",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "50.83",
+        "GPA": "1281.382865"
+    },
+    {
+        "Country": "Croatia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "76.961",
+        "GPA": "13235.97757"
+    },
+    {
+        "Country": "Cyprus",
+        "Region": "Europe",
+        "LifeExpectancy": "79.789",
+        "GPA": "28868.27382"
+    },
+    {
+        "Country": "Czech Republic",
+        "Region": "Post-communist",
+        "LifeExpectancy": "78.185",
+        "GPA": "19640.92866"
+    },
+    {
+        "Country": "Denmark",
+        "Region": "Europe",
+        "LifeExpectancy": "79.832",
+        "GPA": "57636.12531"
+    },
+    {
+        "Country": "Djibouti",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "61.311",
+        "GPA": "1586.780133"
+    },
+    {
+        "Country": "Dominican Republic",
+        "Region": "Americas",
+        "LifeExpectancy": "73.097",
+        "GPA": "5967.000984"
+    },
+    {
+        "Country": "Ecuador",
+        "Region": "Americas",
+        "LifeExpectancy": "75.449",
+        "GPA": "5702.168288"
+    },
+    {
+        "Country": "Egypt",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "70.742",
+        "GPA": "3226.131379"
+    },
+    {
+        "Country": "El Salvador",
+        "Region": "Americas",
+        "LifeExpectancy": "72.481",
+        "GPA": "3921.720395"
+    },
+    {
+        "Country": "Estonia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "76.2",
+        "GPA": "17490.99313"
+    },
+    {
+        "Country": "Ethiopia",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "62.816",
+        "GPA": "469.7923039"
+    },
+    {
+        "Country": "Finland",
+        "Region": "Europe",
+        "LifeExpectancy": "80.421",
+        "GPA": "47415.55987"
+    },
+    {
+        "Country": "France",
+        "Region": "Europe",
+        "LifeExpectancy": "81.767",
+        "GPA": "40850.35237"
+    },
+    {
+        "Country": "Gabon",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "63.335",
+        "GPA": "10642.43225"
+    },
+    {
+        "Country": "Georgia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "74.555",
+        "GPA": "4142.869175"
+    },
+    {
+        "Country": "Germany",
+        "Region": "Europe",
+        "LifeExpectancy": "80.573",
+        "GPA": "44010.93139"
+    },
+    {
+        "Country": "Ghana",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "61.012",
+        "GPA": "1641.825922"
+    },
+    {
+        "Country": "Greece",
+        "Region": "Europe",
+        "LifeExpectancy": "80.505",
+        "GPA": "22242.68193"
+    },
+    {
+        "Country": "Guatemala",
+        "Region": "Americas",
+        "LifeExpectancy": "71.355",
+        "GPA": "3278.629083"
+    },
+    {
+        "Country": "Guinea",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "57.657",
+        "GPA": "487.3457142"
+    },
+    {
+        "Country": "Haiti",
+        "Region": "Americas",
+        "LifeExpectancy": "62.077",
+        "GPA": "766.8722334"
+    },
+    {
+        "Country": "Honduras",
+        "Region": "Americas",
+        "LifeExpectancy": "72.755",
+        "GPA": "2395.073442"
+    },
+    {
+        "Country": "Hong Kong",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "83.572",
+        "GPA": "36707.77423"
+    },
+    {
+        "Country": "Hungary",
+        "Region": "Post-communist",
+        "LifeExpectancy": "74.859",
+        "GPA": "12819.71206"
+    },
+    {
+        "Country": "Iceland",
+        "Region": "Europe",
+        "LifeExpectancy": "82.198",
+        "GPA": "44258.84279"
+    },
+    {
+        "Country": "India",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "67.269",
+        "GPA": "1449.664875"
+    },
+    {
+        "Country": "Indonesia",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "68.507",
+        "GPA": "3700.523538"
+    },
+    {
+        "Country": "Iran",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "74.784",
+        "GPA": "7710.513314"
+    },
+    {
+        "Country": "Iraq",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "68.96",
+        "GPA": "6649.248156"
+    },
+    {
+        "Country": "Ireland",
+        "Region": "Europe",
+        "LifeExpectancy": "80.518",
+        "GPA": "48976.92975"
+    },
+    {
+        "Country": "Israel",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "81.934",
+        "GPA": "32818.85838"
+    },
+    {
+        "Country": "Italy",
+        "Region": "Europe",
+        "LifeExpectancy": "82.696",
+        "GPA": "34844.49809"
+    },
+    {
+        "Country": "Jamaica",
+        "Region": "Americas",
+        "LifeExpectancy": "75.326",
+        "GPA": "5445.894718"
+    },
+    {
+        "Country": "Japan",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "83.239",
+        "GPA": "46679.26543"
+    },
+    {
+        "Country": "Kazakhstan",
+        "Region": "Post-communist",
+        "LifeExpectancy": "68.606",
+        "GPA": "12120.30534"
+    },
+    {
+        "Country": "Kenya",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "60.31",
+        "GPA": "1184.923256"
+    },
+    {
+        "Country": "Kyrgyzstan",
+        "Region": "Post-communist",
+        "LifeExpectancy": "69.73",
+        "GPA": "1177.974735"
+    },
+    {
+        "Country": "Latvia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "73.607",
+        "GPA": "13775.26158"
+    },
+    {
+        "Country": "Lebanon",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "78.797",
+        "GPA": "9729.282193"
+    },
+    {
+        "Country": "Lesotho",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "48.947",
+        "GPA": "1158.804222"
+    },
+    {
+        "Country": "Liberia",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "60.229",
+        "GPA": "414.1851554"
+    },
+    {
+        "Country": "Lithuania",
+        "Region": "Post-communist",
+        "LifeExpectancy": "72.804",
+        "GPA": "14342.52348"
+    },
+    {
+        "Country": "Luxembourg",
+        "Region": "Europe",
+        "LifeExpectancy": "81.111",
+        "GPA": "105447.0932"
+    },
+    {
+        "Country": "Macedonia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "75.067",
+        "GPA": "4709.511628"
+    },
+    {
+        "Country": "Malawi",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "60.122",
+        "GPA": "270.0875313"
+    },
+    {
+        "Country": "Malaysia",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "74.428",
+        "GPA": "10834.65908"
+    },
+    {
+        "Country": "Malta",
+        "Region": "Europe",
+        "LifeExpectancy": "80.223",
+        "GPA": "21176.30998"
+    },
+    {
+        "Country": "Mauritania",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "62.602",
+        "GPA": "1282.785101"
+    },
+    {
+        "Country": "Mauritius",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "73.965",
+        "GPA": "9113.640643"
+    },
+    {
+        "Country": "Mexico",
+        "Region": "Americas",
+        "LifeExpectancy": "76.411",
+        "GPA": "9703.371017"
+    },
+    {
+        "Country": "Mongolia",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "68.57",
+        "GPA": "4377.23887"
+    },
+    {
+        "Country": "Montenegro",
+        "Region": "Post-communist",
+        "LifeExpectancy": "75.773",
+        "GPA": "6586.721279"
+    },
+    {
+        "Country": "Morocco",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "73.389",
+        "GPA": "2931.4002"
+    },
+    {
+        "Country": "Mozambique",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "54.321",
+        "GPA": "564.8124631"
+    },
+    {
+        "Country": "Myanmar",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "65.501",
+        "GPA": "1421.497351"
+    },
+    {
+        "Country": "Namibia",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "64.014",
+        "GPA": "5679.958215"
+    },
+    {
+        "Country": "Nepal",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "68.824",
+        "GPA": "685.4967586"
+    },
+    {
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "LifeExpectancy": "81.212",
+        "GPA": "49474.70561"
+    },
+    {
+        "Country": "New Zealand",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "81.417",
+        "GPA": "39504.96094"
+    },
+    {
+        "Country": "Nicaragua",
+        "Region": "Americas",
+        "LifeExpectancy": "74.322",
+        "GPA": "1779.867088"
+    },
+    {
+        "Country": "Niger",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "60.046",
+        "GPA": "393.643423"
+    },
+    {
+        "Country": "Nigeria",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "52.112",
+        "GPA": "2739.852189"
+    },
+    {
+        "Country": "Norway",
+        "Region": "Europe",
+        "LifeExpectancy": "81.281",
+        "GPA": "101563.7027"
+    },
+    {
+        "Country": "Oman",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "76.3",
+        "GPA": "21533.8076"
+    },
+    {
+        "Country": "Pakistan",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "65.704",
+        "GPA": "1266.380758"
+    },
+    {
+        "Country": "Palestine",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "72.552",
+        "GPA": "2782.905026"
+    },
+    {
+        "Country": "Panama",
+        "Region": "Americas",
+        "LifeExpectancy": "77.215",
+        "GPA": "10138.52113"
+    },
+    {
+        "Country": "Paraguay",
+        "Region": "Americas",
+        "LifeExpectancy": "72.638",
+        "GPA": "3858.036492"
+    },
+    {
+        "Country": "Peru",
+        "Region": "Americas",
+        "LifeExpectancy": "74.089",
+        "GPA": "6388.845098"
+    },
+    {
+        "Country": "Philippines",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "67.949",
+        "GPA": "2604.655997"
+    },
+    {
+        "Country": "Poland",
+        "Region": "Post-communist",
+        "LifeExpectancy": "76.926",
+        "GPA": "13142.04599"
+    },
+    {
+        "Country": "Portugal",
+        "Region": "Europe",
+        "LifeExpectancy": "80.33",
+        "GPA": "20577.40264"
+    },
+    {
+        "Country": "Republic of Congo",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "60.951",
+        "GPA": "3191.164299"
+    },
+    {
+        "Country": "Romania",
+        "Region": "Post-communist",
+        "LifeExpectancy": "74.327",
+        "GPA": "8577.289214"
+    },
+    {
+        "Country": "Russia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "69.519",
+        "GPA": "14078.83057"
+    },
+    {
+        "Country": "Rwanda",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "63.056",
+        "GPA": "667.4145823"
+    },
+    {
+        "Country": "Senegal",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "65.429",
+        "GPA": "1019.27223"
+    },
+    {
+        "Country": "Serbia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "74.495",
+        "GPA": "5659.380204"
+    },
+    {
+        "Country": "Sierra Leone",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "49.758",
+        "GPA": "618.9472529"
+    },
+    {
+        "Country": "Slovakia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "75.872",
+        "GPA": "17207.27921"
+    },
+    {
+        "Country": "Slovenia",
+        "Region": "Post-communist",
+        "LifeExpectancy": "79.953",
+        "GPA": "22477.59756"
+    },
+    {
+        "Country": "South Africa",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "56.285",
+        "GPA": "7592.157997"
+    },
+    {
+        "Country": "South Korea",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "81.349",
+        "GPA": "24453.97191"
+    },
+    {
+        "Country": "Spain",
+        "Region": "Europe",
+        "LifeExpectancy": "82.192",
+        "GPA": "28647.83524"
+    },
+    {
+        "Country": "Sri Lanka",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "74.601",
+        "GPA": "3350.686574"
+    },
+    {
+        "Country": "Suriname",
+        "Region": "Americas",
+        "LifeExpectancy": "70.788",
+        "GPA": "9422.270994"
+    },
+    {
+        "Country": "Swaziland",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "48.91",
+        "GPA": "3988.667162"
+    },
+    {
+        "Country": "Sweden",
+        "Region": "Europe",
+        "LifeExpectancy": "81.847",
+        "GPA": "57134.07707"
+    },
+    {
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "LifeExpectancy": "82.6",
+        "GPA": "83208.68654"
+    },
+    {
+        "Country": "Syria",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "70.385",
+        "GPA": "2079.987864"
+    },
+    {
+        "Country": "Tajikistan",
+        "Region": "Post-communist",
+        "LifeExpectancy": "69.01",
+        "GPA": "962.4391249"
+    },
+    {
+        "Country": "Tanzania",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "63.544",
+        "GPA": "827.5288808"
+    },
+    {
+        "Country": "Thailand",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "74.087",
+        "GPA": "5917.917934"
+    },
+    {
+        "Country": "Togo",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "58.601",
+        "GPA": "580.4950618"
+    },
+    {
+        "Country": "Trinidad and Tobago",
+        "Region": "Americas",
+        "LifeExpectancy": "70.116",
+        "GPA": "18322.3238"
+    },
+    {
+        "Country": "Tunisia",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "74.644",
+        "GPA": "4187.543531"
+    },
+    {
+        "Country": "Turkey",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "74.72",
+        "GPA": "10646.03553"
+    },
+    {
+        "Country": "Turkmenistan",
+        "Region": "Post-communist",
+        "LifeExpectancy": "65.298",
+        "GPA": "6797.721166"
+    },
+    {
+        "Country": "Uganda",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "57.14",
+        "GPA": "656.3980727"
+    },
+    {
+        "Country": "Ukraine",
+        "Region": "Post-communist",
+        "LifeExpectancy": "70.317",
+        "GPA": "3855.42128"
+    },
+    {
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "LifeExpectancy": "80.392",
+        "GPA": "41294.5148"
+    },
+    {
+        "Country": "United States of America",
+        "Region": "Americas",
+        "LifeExpectancy": "78.807",
+        "GPA": "51456.65873"
+    },
+    {
+        "Country": "Uruguay",
+        "Region": "Americas",
+        "LifeExpectancy": "76.891",
+        "GPA": "15127.64415"
+    },
+    {
+        "Country": "Uzbekistan",
+        "Region": "Post-communist",
+        "LifeExpectancy": "68.171",
+        "GPA": "1719.036196"
+    },
+    {
+        "Country": "Vanuatu",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "71.341",
+        "GPA": "3158.420974"
+    },
+    {
+        "Country": "Venezuela",
+        "Region": "Americas",
+        "LifeExpectancy": "73.885",
+        "GPA": "12771.59504"
+    },
+    {
+        "Country": "Vietnam",
+        "Region": "Asia Pacific",
+        "LifeExpectancy": "75.477",
+        "GPA": "1754.547974"
+    },
+    {
+        "Country": "Yemen",
+        "Region": "Middle East and North Africa",
+        "LifeExpectancy": "63.34",
+        "GPA": "1289.034078"
+    },
+    {
+        "Country": "Zambia",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "58.409",
+        "GPA": "1686.618024"
+    },
+    {
+        "Country": "Zimbabwe",
+        "Region": "Sub Saharan Africa",
+        "LifeExpectancy": "53.673",
+        "GPA": "850.827694"
+    }
+]
