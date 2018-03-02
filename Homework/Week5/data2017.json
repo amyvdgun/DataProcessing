@@ -1,0 +1,74 @@
+[
+    {
+        "Datum": "2017 januari",
+        "Immigratie": "17580",
+        "Emigratie": "13067",
+        "TotaleBevolkingsgroei": "2757"
+    },
+    {
+        "Datum": "2017 februari",
+        "Immigratie": "19204",
+        "Emigratie": "10877",
+        "TotaleBevolkingsgroei": "7240"
+    },
+    {
+        "Datum": "2017 maart",
+        "Immigratie": "17586",
+        "Emigratie": "10671",
+        "TotaleBevolkingsgroei": "7513"
+    },
+    {
+        "Datum": "2017 april",
+        "Immigratie": "13743",
+        "Emigratie": "9506",
+        "TotaleBevolkingsgroei": "5817"
+    },
+    {
+        "Datum": "2017 mei",
+        "Immigratie": "15573",
+        "Emigratie": "10872",
+        "TotaleBevolkingsgroei": "6717"
+    },
+    {
+        "Datum": "2017 juni",
+        "Immigratie": "16185",
+        "Emigratie": "13999",
+        "TotaleBevolkingsgroei": "4730"
+    },
+    {
+        "Datum": "2017 juli",
+        "Immigratie": "18157",
+        "Emigratie": "16924",
+        "TotaleBevolkingsgroei": "4737"
+    },
+    {
+        "Datum": "2017 augustus",
+        "Immigratie": "30396",
+        "Emigratie": "15571",
+        "TotaleBevolkingsgroei": "18838"
+    },
+    {
+        "Datum": "2017 september",
+        "Immigratie": "32991",
+        "Emigratie": "13494",
+        "TotaleBevolkingsgroei": "22868"
+    },
+    {
+        "Datum": "2017 oktober",
+        "Immigratie": "21559",
+        "Emigratie": "12344",
+        "TotaleBevolkingsgroei": "11922"
+    },
+    {
+        "Datum": "2017 november",
+        "Immigratie": "17404",
+        "Emigratie": "11281",
+        "TotaleBevolkingsgroei": "7816"
+    },
+    {
+        "Datum": "2017 december",
+        "Immigratie": "13584",
+        "Emigratie": "12026",
+        "TotaleBevolkingsgroei": "1548"
+    }
+]
