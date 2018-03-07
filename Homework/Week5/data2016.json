@@ -1,72 +1,72 @@
 [
     {
-        "Datum": "2016 januari",
+        "Datum": "Jan",
         "Immigratie": "17415",
         "Emigratie": "13076",
         "TotaleBevolkingsgroei": "4560"
     },
     {
-        "Datum": "2016 februari",
+        "Datum": "Feb",
         "Immigratie": "19595",
         "Emigratie": "11680",
         "TotaleBevolkingsgroei": "8330"
     },
     {
-        "Datum": "2016 maart",
+        "Datum": "Mar",
         "Immigratie": "16507",
         "Emigratie": "11010",
         "TotaleBevolkingsgroei": "5907"
     },
     {
-        "Datum": "2016 april",
+        "Datum": "Apr",
         "Immigratie": "14517",
         "Emigratie": "10498",
         "TotaleBevolkingsgroei": "5614"
     },
     {
-        "Datum": "2016 mei",
+        "Datum": "May",
         "Immigratie": "15047",
         "Emigratie": "9577",
         "TotaleBevolkingsgroei": "7760"
     },
     {
-        "Datum": "2016 juni",
+        "Datum": "Jun",
         "Immigratie": "16662",
         "Emigratie": "13205",
         "TotaleBevolkingsgroei": "6759"
     },
     {
-        "Datum": "2016 juli",
+        "Datum": "Jul",
         "Immigratie": "17362",
         "Emigratie": "16714",
         "TotaleBevolkingsgroei": "4624"
     },
     {
-        "Datum": "2016 augustus",
+        "Datum": "Aug",
         "Immigratie": "31452",
         "Emigratie": "15780",
         "TotaleBevolkingsgroei": "19868"
     },
     {
-        "Datum": "2016 september",
+        "Datum": "Sep",
         "Immigratie": "30085",
         "Emigratie": "14031",
         "TotaleBevolkingsgroei": "19947"
     },
     {
-        "Datum": "2016 oktober",
+        "Datum": "Oct",
         "Immigratie": "19489",
         "Emigratie": "12075",
         "TotaleBevolkingsgroei": "9555"
     },
     {
-        "Datum": "2016 november",
+        "Datum": "Nov",
         "Immigratie": "17757",
         "Emigratie": "11210",
         "TotaleBevolkingsgroei": "7743"
     },
     {
-        "Datum": "2016 december",
+        "Datum": "Dec",
         "Immigratie": "14851",
         "Emigratie": "12689",
         "TotaleBevolkingsgroei": "1720"

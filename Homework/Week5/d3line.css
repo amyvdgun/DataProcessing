@@ -12,3 +12,15 @@ body {
 	font: 12px sans-serif;
 	text-align: center;
 }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.line {
+	fill: none;
+	stroke-width: 2px;
+}
