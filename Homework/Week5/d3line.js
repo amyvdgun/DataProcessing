@@ -22,9 +22,11 @@ var svg = d3.select(".d3line")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // set the range for x 
-var x = d3.scaleBand()
-	.rangeRound([0, width])
-	.padding(0.1);
+// var x = d3.scaleBand()
+// 	.rangeRound([0, width])
+
+var x = d3.scaleTime()
+	.range([0, width]);
 
 // set the range for y
 var y = d3.scaleLinear()
@@ -39,17 +41,21 @@ var yAxis = d3.axisLeft(y);
 // set the colors of plot
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
+var parseMonth = d3.timeParse("%b");
+var formatMonth = d3.timeFormat("%b");
+
 // load in data from JSON files
 queue()
 	.defer(d3.json, "data2016.json")
 	.defer(d3.json, "data2017.json")
 	.await(function(error, data2016, data2017) {
 		
-		// convert data into numbers
+		// convert data into numbers and convert date into month format
 		data2016.forEach(function(d) {
 			d.Immigratie = parseInt(d.Immigratie);
 			d.Emigratie = parseInt(d.Emigratie);
 			d.TotaleBevolkingsgroei = parseInt(d.TotaleBevolkingsgroei);
+			d.Datum = parseMonth(d.Datum);
 		});
 
 		// // convert data into numbers
@@ -57,10 +63,12 @@ queue()
 		// 	d.Immigratie = parseInt(d.Immigratie);
 		// 	d.Emigratie = parseInt(d.Emigratie);
 		// 	d.TotaleBevolkingsgroei = parseInt(d.TotaleBevolkingsgroei);
+		// 	d.Datum = parseMonth(d.Datum);
 		// });
 
 		// set the domain for x and y based on the dataset
-		x.domain(data2016.map(function(d) { return d.Datum; }));
+		x.domain([parseMonth("Jan"),parseMonth("Dec")]);
+		x.domain(d3.extent(data2016, function(d) { return d.Datum; }));
 		y.domain([
 			d3.min(data2016, function(d) { return d.TotaleBevolkingsgroei; }),
 			d3.max(data2016, function(d) { return d.Immigratie; }) 
@@ -70,13 +78,18 @@ queue()
 		svg.append("g")
 			.attr("class", "x axis")
 			.attr("transform", "translate(0," + height + ")")
-		  	.call(xAxis)
+		  	.call(xAxis
+		  		.ticks(d3.timeMonth)
+		  		.tickSize(0, 0)
+		  		.tickFormat(d3.timeFormat("%B"))
+		  		.tickSizeInner(5)
+		  		.tickPadding(5))
 		  .append("text")
 			.attr("class", "label")
 			.attr("x", width)
 			.attr("y", margin.bottom/1.15)
 			.style("text-anchor", "end")
-			.text("GPA/Capita ($)");
+			.text("Month");
 
 		// draw y-axis on desired position and set label
 		svg.append("g")
@@ -89,11 +102,11 @@ queue()
 			.attr("y", -margin.left/2)
 			.attr("dy", ".71em")
 			.style("text-anchor", "end")
-			.text("Life Expectancy");
+			.text("Amount of people");
 
-		var line1 = d3.line()
-			.x(function(data2016) {return x(data2016.Datum); })
-			.y(function(data2016) {return y(data2016.Immigratie); });
+		var line = d3.line()
+		    .x(function(data2016) { return x(data2016.Datum); })
+		    .y(function(data2016) { return y(data2016.Immigratie); });
 
 		var line2 = d3.line()
 			.x(function(data2016) {return x(data2016.Datum); })
@@ -106,8 +119,9 @@ queue()
 		svg.append("path")
 			.data([data2016])
 			.attr("class", "line")
-			.attr("d", line1)
-			.style("stroke", "orange");
+			.attr("d", line)
+			.style("stroke", "orange")
+			.style("text", "Immigratie");
 
 		svg.append("path")
 			.data([data2016])
