@@ -26,7 +26,7 @@ function loadData(year) {
 	d3.selectAll("svg > *").remove();
 
 	// set the outer and inner width and height
-	var margin = {top: 40, bottom: 80, left: 80, right: 100},
+	var margin = {top: 40, bottom: 40, left: 80, right: 100},
 	width = 1100 - margin.left - margin.right,
 	height = 550 - margin.top - margin.bottom;
 
