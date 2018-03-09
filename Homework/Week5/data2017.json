@@ -1,74 +1,2192 @@
 [
     {
-        "Datum": "Jan",
-        "Immigratie": "17580",
-        "Emigratie": "13067",
-        "TotaleBevolkingsgroei": "2757"
+        "Datum": "20170101",
+        "Gemiddelde": "16",
+        "Minimum": "0",
+        "Maximum": "32"
     },
     {
-        "Datum": "Feb",
-        "Immigratie": "19204",
-        "Emigratie": "10877",
-        "TotaleBevolkingsgroei": "7240"
+        "Datum": "20170102",
+        "Gemiddelde": "32",
+        "Minimum": "-1",
+        "Maximum": "67"
     },
     {
-        "Datum": "Mar",
-        "Immigratie": "17586",
-        "Emigratie": "10671",
-        "TotaleBevolkingsgroei": "7513"
+        "Datum": "20170103",
+        "Gemiddelde": "57",
+        "Minimum": "16",
+        "Maximum": "74"
     },
     {
-        "Datum": "Apr",
-        "Immigratie": "13743",
-        "Emigratie": "9506",
-        "TotaleBevolkingsgroei": "5817"
+        "Datum": "20170104",
+        "Gemiddelde": "59",
+        "Minimum": "24",
+        "Maximum": "76"
     },
     {
-        "Datum": "May",
-        "Immigratie": "15573",
-        "Emigratie": "10872",
-        "TotaleBevolkingsgroei": "6717"
+        "Datum": "20170105",
+        "Gemiddelde": "3",
+        "Minimum": "-43",
+        "Maximum": "40"
     },
     {
-        "Datum": "Jun",
-        "Immigratie": "16185",
-        "Emigratie": "13999",
-        "TotaleBevolkingsgroei": "4730"
+        "Datum": "20170106",
+        "Gemiddelde": "-25",
+        "Minimum": "-59",
+        "Maximum": "-2"
     },
     {
-        "Datum": "Jul",
-        "Immigratie": "18157",
-        "Emigratie": "16924",
-        "TotaleBevolkingsgroei": "4737"
+        "Datum": "20170107",
+        "Gemiddelde": "7",
+        "Minimum": "-13",
+        "Maximum": "35"
     },
     {
-        "Datum": "Aug",
-        "Immigratie": "30396",
-        "Emigratie": "15571",
-        "TotaleBevolkingsgroei": "18838"
+        "Datum": "20170108",
+        "Gemiddelde": "44",
+        "Minimum": "11",
+        "Maximum": "72"
     },
     {
-        "Datum": "Sep",
-        "Immigratie": "32991",
-        "Emigratie": "13494",
-        "TotaleBevolkingsgroei": "22868"
+        "Datum": "20170109",
+        "Gemiddelde": "54",
+        "Minimum": "39",
+        "Maximum": "66"
     },
     {
-        "Datum": "Oct",
-        "Immigratie": "21559",
-        "Emigratie": "12344",
-        "TotaleBevolkingsgroei": "11922"
+        "Datum": "20170110",
+        "Gemiddelde": "57",
+        "Minimum": "31",
+        "Maximum": "74"
     },
     {
-        "Datum": "Nov",
-        "Immigratie": "17404",
-        "Emigratie": "11281",
-        "TotaleBevolkingsgroei": "7816"
+        "Datum": "20170111",
+        "Gemiddelde": "72",
+        "Minimum": "49",
+        "Maximum": "98"
     },
     {
-        "Datum": "Dec",
-        "Immigratie": "13584",
-        "Emigratie": "12026",
-        "TotaleBevolkingsgroei": "1548"
+        "Datum": "20170112",
+        "Gemiddelde": "53",
+        "Minimum": "2",
+        "Maximum": "79"
+    },
+    {
+        "Datum": "20170113",
+        "Gemiddelde": "37",
+        "Minimum": "2",
+        "Maximum": "62"
+    },
+    {
+        "Datum": "20170114",
+        "Gemiddelde": "25",
+        "Minimum": "0",
+        "Maximum": "49"
+    },
+    {
+        "Datum": "20170115",
+        "Gemiddelde": "11",
+        "Minimum": "-33",
+        "Maximum": "36"
+    },
+    {
+        "Datum": "20170116",
+        "Gemiddelde": "-8",
+        "Minimum": "-50",
+        "Maximum": "33"
+    },
+    {
+        "Datum": "20170117",
+        "Gemiddelde": "-35",
+        "Minimum": "-67",
+        "Maximum": "4"
+    },
+    {
+        "Datum": "20170118",
+        "Gemiddelde": "-34",
+        "Minimum": "-62",
+        "Maximum": "-16"
+    },
+    {
+        "Datum": "20170119",
+        "Gemiddelde": "-14",
+        "Minimum": "-57",
+        "Maximum": "48"
+    },
+    {
+        "Datum": "20170120",
+        "Gemiddelde": "3",
+        "Minimum": "-51",
+        "Maximum": "48"
+    },
+    {
+        "Datum": "20170121",
+        "Gemiddelde": "4",
+        "Minimum": "-49",
+        "Maximum": "46"
+    },
+    {
+        "Datum": "20170122",
+        "Gemiddelde": "-16",
+        "Minimum": "-69",
+        "Maximum": "37"
+    },
+    {
+        "Datum": "20170123",
+        "Gemiddelde": "0",
+        "Minimum": "-63",
+        "Maximum": "32"
+    },
+    {
+        "Datum": "20170124",
+        "Gemiddelde": "13",
+        "Minimum": "-3",
+        "Maximum": "31"
+    },
+    {
+        "Datum": "20170125",
+        "Gemiddelde": "-9",
+        "Minimum": "-41",
+        "Maximum": "7"
+    },
+    {
+        "Datum": "20170126",
+        "Gemiddelde": "-25",
+        "Minimum": "-48",
+        "Maximum": "-1"
+    },
+    {
+        "Datum": "20170127",
+        "Gemiddelde": "8",
+        "Minimum": "-42",
+        "Maximum": "47"
+    },
+    {
+        "Datum": "20170128",
+        "Gemiddelde": "57",
+        "Minimum": "24",
+        "Maximum": "94"
+    },
+    {
+        "Datum": "20170129",
+        "Gemiddelde": "44",
+        "Minimum": "29",
+        "Maximum": "61"
+    },
+    {
+        "Datum": "20170130",
+        "Gemiddelde": "50",
+        "Minimum": "31",
+        "Maximum": "71"
+    },
+    {
+        "Datum": "20170131",
+        "Gemiddelde": "40",
+        "Minimum": "31",
+        "Maximum": "57"
+    },
+    {
+        "Datum": "20170201",
+        "Gemiddelde": "37",
+        "Minimum": "4",
+        "Maximum": "64"
+    },
+    {
+        "Datum": "20170202",
+        "Gemiddelde": "89",
+        "Minimum": "57",
+        "Maximum": "129"
+    },
+    {
+        "Datum": "20170203",
+        "Gemiddelde": "84",
+        "Minimum": "62",
+        "Maximum": "114"
+    },
+    {
+        "Datum": "20170204",
+        "Gemiddelde": "54",
+        "Minimum": "25",
+        "Maximum": "72"
+    },
+    {
+        "Datum": "20170205",
+        "Gemiddelde": "40",
+        "Minimum": "16",
+        "Maximum": "61"
+    },
+    {
+        "Datum": "20170206",
+        "Gemiddelde": "44",
+        "Minimum": "16",
+        "Maximum": "62"
+    },
+    {
+        "Datum": "20170207",
+        "Gemiddelde": "24",
+        "Minimum": "9",
+        "Maximum": "41"
+    },
+    {
+        "Datum": "20170208",
+        "Gemiddelde": "-1",
+        "Minimum": "-9",
+        "Maximum": "9"
+    },
+    {
+        "Datum": "20170209",
+        "Gemiddelde": "-14",
+        "Minimum": "-20",
+        "Maximum": "-8"
+    },
+    {
+        "Datum": "20170210",
+        "Gemiddelde": "-22",
+        "Minimum": "-40",
+        "Maximum": "-15"
+    },
+    {
+        "Datum": "20170211",
+        "Gemiddelde": "-4",
+        "Minimum": "-16",
+        "Maximum": "8"
+    },
+    {
+        "Datum": "20170212",
+        "Gemiddelde": "3",
+        "Minimum": "-13",
+        "Maximum": "20"
+    },
+    {
+        "Datum": "20170213",
+        "Gemiddelde": "16",
+        "Minimum": "-15",
+        "Maximum": "53"
+    },
+    {
+        "Datum": "20170214",
+        "Gemiddelde": "37",
+        "Minimum": "-3",
+        "Maximum": "89"
+    },
+    {
+        "Datum": "20170215",
+        "Gemiddelde": "68",
+        "Minimum": "11",
+        "Maximum": "129"
+    },
+    {
+        "Datum": "20170216",
+        "Gemiddelde": "62",
+        "Minimum": "30",
+        "Maximum": "95"
+    },
+    {
+        "Datum": "20170217",
+        "Gemiddelde": "69",
+        "Minimum": "51",
+        "Maximum": "82"
+    },
+    {
+        "Datum": "20170218",
+        "Gemiddelde": "43",
+        "Minimum": "17",
+        "Maximum": "88"
+    },
+    {
+        "Datum": "20170219",
+        "Gemiddelde": "64",
+        "Minimum": "20",
+        "Maximum": "101"
+    },
+    {
+        "Datum": "20170220",
+        "Gemiddelde": "91",
+        "Minimum": "73",
+        "Maximum": "110"
+    },
+    {
+        "Datum": "20170221",
+        "Gemiddelde": "91",
+        "Minimum": "71",
+        "Maximum": "106"
+    },
+    {
+        "Datum": "20170222",
+        "Gemiddelde": "89",
+        "Minimum": "73",
+        "Maximum": "101"
+    },
+    {
+        "Datum": "20170223",
+        "Gemiddelde": "77",
+        "Minimum": "41",
+        "Maximum": "105"
+    },
+    {
+        "Datum": "20170224",
+        "Gemiddelde": "44",
+        "Minimum": "-1",
+        "Maximum": "82"
+    },
+    {
+        "Datum": "20170225",
+        "Gemiddelde": "58",
+        "Minimum": "11",
+        "Maximum": "87"
+    },
+    {
+        "Datum": "20170226",
+        "Gemiddelde": "87",
+        "Minimum": "69",
+        "Maximum": "106"
+    },
+    {
+        "Datum": "20170227",
+        "Gemiddelde": "83",
+        "Minimum": "43",
+        "Maximum": "102"
+    },
+    {
+        "Datum": "20170228",
+        "Gemiddelde": "44",
+        "Minimum": "21",
+        "Maximum": "66"
+    },
+    {
+        "Datum": "20170301",
+        "Gemiddelde": "61",
+        "Minimum": "36",
+        "Maximum": "89"
+    },
+    {
+        "Datum": "20170302",
+        "Gemiddelde": "63",
+        "Minimum": "28",
+        "Maximum": "84"
+    },
+    {
+        "Datum": "20170303",
+        "Gemiddelde": "58",
+        "Minimum": "12",
+        "Maximum": "89"
+    },
+    {
+        "Datum": "20170304",
+        "Gemiddelde": "86",
+        "Minimum": "60",
+        "Maximum": "131"
+    },
+    {
+        "Datum": "20170305",
+        "Gemiddelde": "68",
+        "Minimum": "41",
+        "Maximum": "110"
+    },
+    {
+        "Datum": "20170306",
+        "Gemiddelde": "59",
+        "Minimum": "25",
+        "Maximum": "100"
+    },
+    {
+        "Datum": "20170307",
+        "Gemiddelde": "66",
+        "Minimum": "41",
+        "Maximum": "90"
+    },
+    {
+        "Datum": "20170308",
+        "Gemiddelde": "59",
+        "Minimum": "21",
+        "Maximum": "101"
+    },
+    {
+        "Datum": "20170309",
+        "Gemiddelde": "73",
+        "Minimum": "11",
+        "Maximum": "122"
+    },
+    {
+        "Datum": "20170310",
+        "Gemiddelde": "66",
+        "Minimum": "-5",
+        "Maximum": "116"
+    },
+    {
+        "Datum": "20170311",
+        "Gemiddelde": "77",
+        "Minimum": "25",
+        "Maximum": "125"
+    },
+    {
+        "Datum": "20170312",
+        "Gemiddelde": "89",
+        "Minimum": "44",
+        "Maximum": "152"
+    },
+    {
+        "Datum": "20170313",
+        "Gemiddelde": "63",
+        "Minimum": "5",
+        "Maximum": "123"
+    },
+    {
+        "Datum": "20170314",
+        "Gemiddelde": "81",
+        "Minimum": "33",
+        "Maximum": "136"
+    },
+    {
+        "Datum": "20170315",
+        "Gemiddelde": "89",
+        "Minimum": "43",
+        "Maximum": "135"
+    },
+    {
+        "Datum": "20170316",
+        "Gemiddelde": "99",
+        "Minimum": "28",
+        "Maximum": "165"
+    },
+    {
+        "Datum": "20170317",
+        "Gemiddelde": "81",
+        "Minimum": "65",
+        "Maximum": "105"
+    },
+    {
+        "Datum": "20170318",
+        "Gemiddelde": "91",
+        "Minimum": "76",
+        "Maximum": "115"
+    },
+    {
+        "Datum": "20170319",
+        "Gemiddelde": "113",
+        "Minimum": "95",
+        "Maximum": "136"
+    },
+    {
+        "Datum": "20170320",
+        "Gemiddelde": "103",
+        "Minimum": "82",
+        "Maximum": "113"
+    },
+    {
+        "Datum": "20170321",
+        "Gemiddelde": "71",
+        "Minimum": "29",
+        "Maximum": "95"
+    },
+    {
+        "Datum": "20170322",
+        "Gemiddelde": "71",
+        "Minimum": "12",
+        "Maximum": "128"
+    },
+    {
+        "Datum": "20170323",
+        "Gemiddelde": "82",
+        "Minimum": "19",
+        "Maximum": "132"
+    },
+    {
+        "Datum": "20170324",
+        "Gemiddelde": "86",
+        "Minimum": "48",
+        "Maximum": "132"
+    },
+    {
+        "Datum": "20170325",
+        "Gemiddelde": "87",
+        "Minimum": "39",
+        "Maximum": "135"
+    },
+    {
+        "Datum": "20170326",
+        "Gemiddelde": "81",
+        "Minimum": "54",
+        "Maximum": "115"
+    },
+    {
+        "Datum": "20170327",
+        "Gemiddelde": "104",
+        "Minimum": "24",
+        "Maximum": "179"
+    },
+    {
+        "Datum": "20170328",
+        "Gemiddelde": "117",
+        "Minimum": "34",
+        "Maximum": "199"
+    },
+    {
+        "Datum": "20170329",
+        "Gemiddelde": "124",
+        "Minimum": "105",
+        "Maximum": "144"
+    },
+    {
+        "Datum": "20170330",
+        "Gemiddelde": "157",
+        "Minimum": "96",
+        "Maximum": "215"
+    },
+    {
+        "Datum": "20170331",
+        "Gemiddelde": "138",
+        "Minimum": "80",
+        "Maximum": "219"
+    },
+    {
+        "Datum": "20170401",
+        "Gemiddelde": "101",
+        "Minimum": "58",
+        "Maximum": "138"
+    },
+    {
+        "Datum": "20170402",
+        "Gemiddelde": "100",
+        "Minimum": "50",
+        "Maximum": "158"
+    },
+    {
+        "Datum": "20170403",
+        "Gemiddelde": "91",
+        "Minimum": "52",
+        "Maximum": "132"
+    },
+    {
+        "Datum": "20170404",
+        "Gemiddelde": "99",
+        "Minimum": "45",
+        "Maximum": "166"
+    },
+    {
+        "Datum": "20170405",
+        "Gemiddelde": "90",
+        "Minimum": "54",
+        "Maximum": "123"
+    },
+    {
+        "Datum": "20170406",
+        "Gemiddelde": "80",
+        "Minimum": "48",
+        "Maximum": "117"
+    },
+    {
+        "Datum": "20170407",
+        "Gemiddelde": "106",
+        "Minimum": "76",
+        "Maximum": "147"
+    },
+    {
+        "Datum": "20170408",
+        "Gemiddelde": "102",
+        "Minimum": "50",
+        "Maximum": "153"
+    },
+    {
+        "Datum": "20170409",
+        "Gemiddelde": "127",
+        "Minimum": "45",
+        "Maximum": "203"
+    },
+    {
+        "Datum": "20170410",
+        "Gemiddelde": "92",
+        "Minimum": "39",
+        "Maximum": "132"
+    },
+    {
+        "Datum": "20170411",
+        "Gemiddelde": "98",
+        "Minimum": "38",
+        "Maximum": "135"
+    },
+    {
+        "Datum": "20170412",
+        "Gemiddelde": "99",
+        "Minimum": "70",
+        "Maximum": "115"
+    },
+    {
+        "Datum": "20170413",
+        "Gemiddelde": "87",
+        "Minimum": "43",
+        "Maximum": "124"
+    },
+    {
+        "Datum": "20170414",
+        "Gemiddelde": "99",
+        "Minimum": "42",
+        "Maximum": "134"
+    },
+    {
+        "Datum": "20170415",
+        "Gemiddelde": "93",
+        "Minimum": "53",
+        "Maximum": "116"
+    },
+    {
+        "Datum": "20170416",
+        "Gemiddelde": "77",
+        "Minimum": "47",
+        "Maximum": "108"
+    },
+    {
+        "Datum": "20170417",
+        "Gemiddelde": "67",
+        "Minimum": "27",
+        "Maximum": "112"
+    },
+    {
+        "Datum": "20170418",
+        "Gemiddelde": "64",
+        "Minimum": "17",
+        "Maximum": "110"
+    },
+    {
+        "Datum": "20170419",
+        "Gemiddelde": "51",
+        "Minimum": "3",
+        "Maximum": "94"
+    },
+    {
+        "Datum": "20170420",
+        "Gemiddelde": "75",
+        "Minimum": "0",
+        "Maximum": "121"
+    },
+    {
+        "Datum": "20170421",
+        "Gemiddelde": "108",
+        "Minimum": "74",
+        "Maximum": "137"
+    },
+    {
+        "Datum": "20170422",
+        "Gemiddelde": "78",
+        "Minimum": "40",
+        "Maximum": "114"
+    },
+    {
+        "Datum": "20170423",
+        "Gemiddelde": "71",
+        "Minimum": "28",
+        "Maximum": "114"
+    },
+    {
+        "Datum": "20170424",
+        "Gemiddelde": "92",
+        "Minimum": "60",
+        "Maximum": "124"
+    },
+    {
+        "Datum": "20170425",
+        "Gemiddelde": "60",
+        "Minimum": "29",
+        "Maximum": "99"
+    },
+    {
+        "Datum": "20170426",
+        "Gemiddelde": "57",
+        "Minimum": "-2",
+        "Maximum": "110"
+    },
+    {
+        "Datum": "20170427",
+        "Gemiddelde": "69",
+        "Minimum": "4",
+        "Maximum": "106"
+    },
+    {
+        "Datum": "20170428",
+        "Gemiddelde": "78",
+        "Minimum": "43",
+        "Maximum": "118"
+    },
+    {
+        "Datum": "20170429",
+        "Gemiddelde": "82",
+        "Minimum": "21",
+        "Maximum": "137"
+    },
+    {
+        "Datum": "20170430",
+        "Gemiddelde": "130",
+        "Minimum": "52",
+        "Maximum": "192"
+    },
+    {
+        "Datum": "20170501",
+        "Gemiddelde": "119",
+        "Minimum": "92",
+        "Maximum": "144"
+    },
+    {
+        "Datum": "20170502",
+        "Gemiddelde": "113",
+        "Minimum": "79",
+        "Maximum": "154"
+    },
+    {
+        "Datum": "20170503",
+        "Gemiddelde": "109",
+        "Minimum": "79",
+        "Maximum": "143"
+    },
+    {
+        "Datum": "20170504",
+        "Gemiddelde": "106",
+        "Minimum": "86",
+        "Maximum": "128"
+    },
+    {
+        "Datum": "20170505",
+        "Gemiddelde": "94",
+        "Minimum": "78",
+        "Maximum": "111"
+    },
+    {
+        "Datum": "20170506",
+        "Gemiddelde": "124",
+        "Minimum": "67",
+        "Maximum": "175"
+    },
+    {
+        "Datum": "20170507",
+        "Gemiddelde": "111",
+        "Minimum": "85",
+        "Maximum": "156"
+    },
+    {
+        "Datum": "20170508",
+        "Gemiddelde": "98",
+        "Minimum": "38",
+        "Maximum": "154"
+    },
+    {
+        "Datum": "20170509",
+        "Gemiddelde": "86",
+        "Minimum": "29",
+        "Maximum": "132"
+    },
+    {
+        "Datum": "20170510",
+        "Gemiddelde": "93",
+        "Minimum": "38",
+        "Maximum": "143"
+    },
+    {
+        "Datum": "20170511",
+        "Gemiddelde": "157",
+        "Minimum": "54",
+        "Maximum": "230"
+    },
+    {
+        "Datum": "20170512",
+        "Gemiddelde": "154",
+        "Minimum": "123",
+        "Maximum": "204"
+    },
+    {
+        "Datum": "20170513",
+        "Gemiddelde": "139",
+        "Minimum": "92",
+        "Maximum": "182"
+    },
+    {
+        "Datum": "20170514",
+        "Gemiddelde": "138",
+        "Minimum": "86",
+        "Maximum": "202"
+    },
+    {
+        "Datum": "20170515",
+        "Gemiddelde": "149",
+        "Minimum": "73",
+        "Maximum": "206"
+    },
+    {
+        "Datum": "20170516",
+        "Gemiddelde": "201",
+        "Minimum": "159",
+        "Maximum": "258"
+    },
+    {
+        "Datum": "20170517",
+        "Gemiddelde": "223",
+        "Minimum": "161",
+        "Maximum": "285"
+    },
+    {
+        "Datum": "20170518",
+        "Gemiddelde": "152",
+        "Minimum": "130",
+        "Maximum": "207"
+    },
+    {
+        "Datum": "20170519",
+        "Gemiddelde": "129",
+        "Minimum": "97",
+        "Maximum": "164"
+    },
+    {
+        "Datum": "20170520",
+        "Gemiddelde": "134",
+        "Minimum": "90",
+        "Maximum": "175"
+    },
+    {
+        "Datum": "20170521",
+        "Gemiddelde": "144",
+        "Minimum": "72",
+        "Maximum": "199"
+    },
+    {
+        "Datum": "20170522",
+        "Gemiddelde": "180",
+        "Minimum": "97",
+        "Maximum": "241"
+    },
+    {
+        "Datum": "20170523",
+        "Gemiddelde": "154",
+        "Minimum": "115",
+        "Maximum": "190"
+    },
+    {
+        "Datum": "20170524",
+        "Gemiddelde": "155",
+        "Minimum": "100",
+        "Maximum": "211"
+    },
+    {
+        "Datum": "20170525",
+        "Gemiddelde": "172",
+        "Minimum": "91",
+        "Maximum": "222"
+    },
+    {
+        "Datum": "20170526",
+        "Gemiddelde": "204",
+        "Minimum": "122",
+        "Maximum": "256"
+    },
+    {
+        "Datum": "20170527",
+        "Gemiddelde": "223",
+        "Minimum": "165",
+        "Maximum": "306"
+    },
+    {
+        "Datum": "20170528",
+        "Gemiddelde": "189",
+        "Minimum": "146",
+        "Maximum": "234"
+    },
+    {
+        "Datum": "20170529",
+        "Gemiddelde": "207",
+        "Minimum": "153",
+        "Maximum": "269"
+    },
+    {
+        "Datum": "20170530",
+        "Gemiddelde": "172",
+        "Minimum": "155",
+        "Maximum": "194"
+    },
+    {
+        "Datum": "20170531",
+        "Gemiddelde": "166",
+        "Minimum": "113",
+        "Maximum": "208"
+    },
+    {
+        "Datum": "20170601",
+        "Gemiddelde": "170",
+        "Minimum": "87",
+        "Maximum": "229"
+    },
+    {
+        "Datum": "20170602",
+        "Gemiddelde": "203",
+        "Minimum": "126",
+        "Maximum": "250"
+    },
+    {
+        "Datum": "20170603",
+        "Gemiddelde": "177",
+        "Minimum": "135",
+        "Maximum": "221"
+    },
+    {
+        "Datum": "20170604",
+        "Gemiddelde": "154",
+        "Minimum": "111",
+        "Maximum": "190"
+    },
+    {
+        "Datum": "20170605",
+        "Gemiddelde": "170",
+        "Minimum": "114",
+        "Maximum": "212"
+    },
+    {
+        "Datum": "20170606",
+        "Gemiddelde": "144",
+        "Minimum": "112",
+        "Maximum": "178"
+    },
+    {
+        "Datum": "20170607",
+        "Gemiddelde": "143",
+        "Minimum": "121",
+        "Maximum": "182"
+    },
+    {
+        "Datum": "20170608",
+        "Gemiddelde": "163",
+        "Minimum": "121",
+        "Maximum": "225"
+    },
+    {
+        "Datum": "20170609",
+        "Gemiddelde": "161",
+        "Minimum": "128",
+        "Maximum": "191"
+    },
+    {
+        "Datum": "20170610",
+        "Gemiddelde": "180",
+        "Minimum": "118",
+        "Maximum": "236"
+    },
+    {
+        "Datum": "20170611",
+        "Gemiddelde": "197",
+        "Minimum": "129",
+        "Maximum": "269"
+    },
+    {
+        "Datum": "20170612",
+        "Gemiddelde": "163",
+        "Minimum": "145",
+        "Maximum": "191"
+    },
+    {
+        "Datum": "20170613",
+        "Gemiddelde": "162",
+        "Minimum": "114",
+        "Maximum": "201"
+    },
+    {
+        "Datum": "20170614",
+        "Gemiddelde": "181",
+        "Minimum": "102",
+        "Maximum": "238"
+    },
+    {
+        "Datum": "20170615",
+        "Gemiddelde": "198",
+        "Minimum": "147",
+        "Maximum": "256"
+    },
+    {
+        "Datum": "20170616",
+        "Gemiddelde": "161",
+        "Minimum": "133",
+        "Maximum": "184"
+    },
+    {
+        "Datum": "20170617",
+        "Gemiddelde": "186",
+        "Minimum": "149",
+        "Maximum": "229"
+    },
+    {
+        "Datum": "20170618",
+        "Gemiddelde": "214",
+        "Minimum": "124",
+        "Maximum": "274"
+    },
+    {
+        "Datum": "20170619",
+        "Gemiddelde": "242",
+        "Minimum": "168",
+        "Maximum": "298"
+    },
+    {
+        "Datum": "20170620",
+        "Gemiddelde": "211",
+        "Minimum": "158",
+        "Maximum": "252"
+    },
+    {
+        "Datum": "20170621",
+        "Gemiddelde": "207",
+        "Minimum": "139",
+        "Maximum": "264"
+    },
+    {
+        "Datum": "20170622",
+        "Gemiddelde": "216",
+        "Minimum": "165",
+        "Maximum": "284"
+    },
+    {
+        "Datum": "20170623",
+        "Gemiddelde": "186",
+        "Minimum": "163",
+        "Maximum": "214"
+    },
+    {
+        "Datum": "20170624",
+        "Gemiddelde": "181",
+        "Minimum": "164",
+        "Maximum": "201"
+    },
+    {
+        "Datum": "20170625",
+        "Gemiddelde": "173",
+        "Minimum": "158",
+        "Maximum": "196"
+    },
+    {
+        "Datum": "20170626",
+        "Gemiddelde": "161",
+        "Minimum": "120",
+        "Maximum": "195"
+    },
+    {
+        "Datum": "20170627",
+        "Gemiddelde": "175",
+        "Minimum": "114",
+        "Maximum": "225"
+    },
+    {
+        "Datum": "20170628",
+        "Gemiddelde": "179",
+        "Minimum": "145",
+        "Maximum": "225"
+    },
+    {
+        "Datum": "20170629",
+        "Gemiddelde": "171",
+        "Minimum": "137",
+        "Maximum": "209"
+    },
+    {
+        "Datum": "20170630",
+        "Gemiddelde": "164",
+        "Minimum": "121",
+        "Maximum": "196"
+    },
+    {
+        "Datum": "20170701",
+        "Gemiddelde": "163",
+        "Minimum": "131",
+        "Maximum": "204"
+    },
+    {
+        "Datum": "20170702",
+        "Gemiddelde": "158",
+        "Minimum": "106",
+        "Maximum": "195"
+    },
+    {
+        "Datum": "20170703",
+        "Gemiddelde": "172",
+        "Minimum": "105",
+        "Maximum": "222"
+    },
+    {
+        "Datum": "20170704",
+        "Gemiddelde": "182",
+        "Minimum": "135",
+        "Maximum": "228"
+    },
+    {
+        "Datum": "20170705",
+        "Gemiddelde": "190",
+        "Minimum": "132",
+        "Maximum": "239"
+    },
+    {
+        "Datum": "20170706",
+        "Gemiddelde": "204",
+        "Minimum": "133",
+        "Maximum": "268"
+    },
+    {
+        "Datum": "20170707",
+        "Gemiddelde": "198",
+        "Minimum": "164",
+        "Maximum": "248"
+    },
+    {
+        "Datum": "20170708",
+        "Gemiddelde": "181",
+        "Minimum": "115",
+        "Maximum": "230"
+    },
+    {
+        "Datum": "20170709",
+        "Gemiddelde": "178",
+        "Minimum": "99",
+        "Maximum": "229"
+    },
+    {
+        "Datum": "20170710",
+        "Gemiddelde": "192",
+        "Minimum": "154",
+        "Maximum": "250"
+    },
+    {
+        "Datum": "20170711",
+        "Gemiddelde": "182",
+        "Minimum": "153",
+        "Maximum": "211"
+    },
+    {
+        "Datum": "20170712",
+        "Gemiddelde": "155",
+        "Minimum": "122",
+        "Maximum": "192"
+    },
+    {
+        "Datum": "20170713",
+        "Gemiddelde": "153",
+        "Minimum": "99",
+        "Maximum": "197"
+    },
+    {
+        "Datum": "20170714",
+        "Gemiddelde": "153",
+        "Minimum": "106",
+        "Maximum": "196"
+    },
+    {
+        "Datum": "20170715",
+        "Gemiddelde": "173",
+        "Minimum": "111",
+        "Maximum": "221"
+    },
+    {
+        "Datum": "20170716",
+        "Gemiddelde": "182",
+        "Minimum": "160",
+        "Maximum": "206"
+    },
+    {
+        "Datum": "20170717",
+        "Gemiddelde": "180",
+        "Minimum": "128",
+        "Maximum": "226"
+    },
+    {
+        "Datum": "20170718",
+        "Gemiddelde": "195",
+        "Minimum": "129",
+        "Maximum": "244"
+    },
+    {
+        "Datum": "20170719",
+        "Gemiddelde": "229",
+        "Minimum": "179",
+        "Maximum": "301"
+    },
+    {
+        "Datum": "20170720",
+        "Gemiddelde": "191",
+        "Minimum": "144",
+        "Maximum": "234"
+    },
+    {
+        "Datum": "20170721",
+        "Gemiddelde": "184",
+        "Minimum": "126",
+        "Maximum": "222"
+    },
+    {
+        "Datum": "20170722",
+        "Gemiddelde": "192",
+        "Minimum": "145",
+        "Maximum": "246"
+    },
+    {
+        "Datum": "20170723",
+        "Gemiddelde": "163",
+        "Minimum": "133",
+        "Maximum": "202"
+    },
+    {
+        "Datum": "20170724",
+        "Gemiddelde": "156",
+        "Minimum": "116",
+        "Maximum": "193"
+    },
+    {
+        "Datum": "20170725",
+        "Gemiddelde": "165",
+        "Minimum": "123",
+        "Maximum": "202"
+    },
+    {
+        "Datum": "20170726",
+        "Gemiddelde": "186",
+        "Minimum": "130",
+        "Maximum": "235"
+    },
+    {
+        "Datum": "20170727",
+        "Gemiddelde": "182",
+        "Minimum": "164",
+        "Maximum": "211"
+    },
+    {
+        "Datum": "20170728",
+        "Gemiddelde": "177",
+        "Minimum": "158",
+        "Maximum": "210"
+    },
+    {
+        "Datum": "20170729",
+        "Gemiddelde": "185",
+        "Minimum": "164",
+        "Maximum": "231"
+    },
+    {
+        "Datum": "20170730",
+        "Gemiddelde": "183",
+        "Minimum": "142",
+        "Maximum": "216"
+    },
+    {
+        "Datum": "20170731",
+        "Gemiddelde": "182",
+        "Minimum": "133",
+        "Maximum": "222"
+    },
+    {
+        "Datum": "20170801",
+        "Gemiddelde": "182",
+        "Minimum": "128",
+        "Maximum": "229"
+    },
+    {
+        "Datum": "20170802",
+        "Gemiddelde": "183",
+        "Minimum": "154",
+        "Maximum": "218"
+    },
+    {
+        "Datum": "20170803",
+        "Gemiddelde": "191",
+        "Minimum": "170",
+        "Maximum": "221"
+    },
+    {
+        "Datum": "20170804",
+        "Gemiddelde": "186",
+        "Minimum": "162",
+        "Maximum": "215"
+    },
+    {
+        "Datum": "20170805",
+        "Gemiddelde": "165",
+        "Minimum": "119",
+        "Maximum": "205"
+    },
+    {
+        "Datum": "20170806",
+        "Gemiddelde": "163",
+        "Minimum": "107",
+        "Maximum": "211"
+    },
+    {
+        "Datum": "20170807",
+        "Gemiddelde": "165",
+        "Minimum": "111",
+        "Maximum": "216"
+    },
+    {
+        "Datum": "20170808",
+        "Gemiddelde": "166",
+        "Minimum": "129",
+        "Maximum": "195"
+    },
+    {
+        "Datum": "20170809",
+        "Gemiddelde": "169",
+        "Minimum": "126",
+        "Maximum": "209"
+    },
+    {
+        "Datum": "20170810",
+        "Gemiddelde": "164",
+        "Minimum": "106",
+        "Maximum": "204"
+    },
+    {
+        "Datum": "20170811",
+        "Gemiddelde": "167",
+        "Minimum": "132",
+        "Maximum": "205"
+    },
+    {
+        "Datum": "20170812",
+        "Gemiddelde": "170",
+        "Minimum": "120",
+        "Maximum": "216"
+    },
+    {
+        "Datum": "20170813",
+        "Gemiddelde": "163",
+        "Minimum": "113",
+        "Maximum": "207"
+    },
+    {
+        "Datum": "20170814",
+        "Gemiddelde": "184",
+        "Minimum": "126",
+        "Maximum": "244"
+    },
+    {
+        "Datum": "20170815",
+        "Gemiddelde": "181",
+        "Minimum": "142",
+        "Maximum": "216"
+    },
+    {
+        "Datum": "20170816",
+        "Gemiddelde": "174",
+        "Minimum": "112",
+        "Maximum": "230"
+    },
+    {
+        "Datum": "20170817",
+        "Gemiddelde": "175",
+        "Minimum": "151",
+        "Maximum": "202"
+    },
+    {
+        "Datum": "20170818",
+        "Gemiddelde": "171",
+        "Minimum": "127",
+        "Maximum": "210"
+    },
+    {
+        "Datum": "20170819",
+        "Gemiddelde": "160",
+        "Minimum": "126",
+        "Maximum": "193"
+    },
+    {
+        "Datum": "20170820",
+        "Gemiddelde": "163",
+        "Minimum": "127",
+        "Maximum": "196"
+    },
+    {
+        "Datum": "20170821",
+        "Gemiddelde": "164",
+        "Minimum": "120",
+        "Maximum": "213"
+    },
+    {
+        "Datum": "20170822",
+        "Gemiddelde": "182",
+        "Minimum": "133",
+        "Maximum": "232"
+    },
+    {
+        "Datum": "20170823",
+        "Gemiddelde": "197",
+        "Minimum": "137",
+        "Maximum": "253"
+    },
+    {
+        "Datum": "20170824",
+        "Gemiddelde": "182",
+        "Minimum": "137",
+        "Maximum": "211"
+    },
+    {
+        "Datum": "20170825",
+        "Gemiddelde": "177",
+        "Minimum": "125",
+        "Maximum": "224"
+    },
+    {
+        "Datum": "20170826",
+        "Gemiddelde": "186",
+        "Minimum": "129",
+        "Maximum": "240"
+    },
+    {
+        "Datum": "20170827",
+        "Gemiddelde": "186",
+        "Minimum": "119",
+        "Maximum": "246"
+    },
+    {
+        "Datum": "20170828",
+        "Gemiddelde": "195",
+        "Minimum": "137",
+        "Maximum": "259"
+    },
+    {
+        "Datum": "20170829",
+        "Gemiddelde": "210",
+        "Minimum": "150",
+        "Maximum": "276"
+    },
+    {
+        "Datum": "20170830",
+        "Gemiddelde": "168",
+        "Minimum": "134",
+        "Maximum": "200"
+    },
+    {
+        "Datum": "20170831",
+        "Gemiddelde": "148",
+        "Minimum": "98",
+        "Maximum": "196"
+    },
+    {
+        "Datum": "20170901",
+        "Gemiddelde": "147",
+        "Minimum": "89",
+        "Maximum": "188"
+    },
+    {
+        "Datum": "20170902",
+        "Gemiddelde": "144",
+        "Minimum": "89",
+        "Maximum": "193"
+    },
+    {
+        "Datum": "20170903",
+        "Gemiddelde": "146",
+        "Minimum": "74",
+        "Maximum": "204"
+    },
+    {
+        "Datum": "20170904",
+        "Gemiddelde": "170",
+        "Minimum": "112",
+        "Maximum": "216"
+    },
+    {
+        "Datum": "20170905",
+        "Gemiddelde": "186",
+        "Minimum": "165",
+        "Maximum": "222"
+    },
+    {
+        "Datum": "20170906",
+        "Gemiddelde": "160",
+        "Minimum": "133",
+        "Maximum": "187"
+    },
+    {
+        "Datum": "20170907",
+        "Gemiddelde": "162",
+        "Minimum": "139",
+        "Maximum": "193"
+    },
+    {
+        "Datum": "20170908",
+        "Gemiddelde": "149",
+        "Minimum": "126",
+        "Maximum": "168"
+    },
+    {
+        "Datum": "20170909",
+        "Gemiddelde": "141",
+        "Minimum": "102",
+        "Maximum": "182"
+    },
+    {
+        "Datum": "20170910",
+        "Gemiddelde": "144",
+        "Minimum": "99",
+        "Maximum": "187"
+    },
+    {
+        "Datum": "20170911",
+        "Gemiddelde": "141",
+        "Minimum": "120",
+        "Maximum": "177"
+    },
+    {
+        "Datum": "20170912",
+        "Gemiddelde": "149",
+        "Minimum": "128",
+        "Maximum": "175"
+    },
+    {
+        "Datum": "20170913",
+        "Gemiddelde": "147",
+        "Minimum": "121",
+        "Maximum": "176"
+    },
+    {
+        "Datum": "20170914",
+        "Gemiddelde": "127",
+        "Minimum": "99",
+        "Maximum": "159"
+    },
+    {
+        "Datum": "20170915",
+        "Gemiddelde": "126",
+        "Minimum": "92",
+        "Maximum": "167"
+    },
+    {
+        "Datum": "20170916",
+        "Gemiddelde": "116",
+        "Minimum": "87",
+        "Maximum": "136"
+    },
+    {
+        "Datum": "20170917",
+        "Gemiddelde": "119",
+        "Minimum": "60",
+        "Maximum": "163"
+    },
+    {
+        "Datum": "20170918",
+        "Gemiddelde": "122",
+        "Minimum": "84",
+        "Maximum": "169"
+    },
+    {
+        "Datum": "20170919",
+        "Gemiddelde": "127",
+        "Minimum": "95",
+        "Maximum": "171"
+    },
+    {
+        "Datum": "20170920",
+        "Gemiddelde": "143",
+        "Minimum": "106",
+        "Maximum": "180"
+    },
+    {
+        "Datum": "20170921",
+        "Gemiddelde": "144",
+        "Minimum": "109",
+        "Maximum": "187"
+    },
+    {
+        "Datum": "20170922",
+        "Gemiddelde": "123",
+        "Minimum": "72",
+        "Maximum": "172"
+    },
+    {
+        "Datum": "20170923",
+        "Gemiddelde": "122",
+        "Minimum": "63",
+        "Maximum": "184"
+    },
+    {
+        "Datum": "20170924",
+        "Gemiddelde": "135",
+        "Minimum": "69",
+        "Maximum": "190"
+    },
+    {
+        "Datum": "20170925",
+        "Gemiddelde": "146",
+        "Minimum": "102",
+        "Maximum": "180"
+    },
+    {
+        "Datum": "20170926",
+        "Gemiddelde": "139",
+        "Minimum": "109",
+        "Maximum": "159"
+    },
+    {
+        "Datum": "20170927",
+        "Gemiddelde": "143",
+        "Minimum": "84",
+        "Maximum": "196"
+    },
+    {
+        "Datum": "20170928",
+        "Gemiddelde": "159",
+        "Minimum": "128",
+        "Maximum": "193"
+    },
+    {
+        "Datum": "20170929",
+        "Gemiddelde": "168",
+        "Minimum": "128",
+        "Maximum": "228"
+    },
+    {
+        "Datum": "20170930",
+        "Gemiddelde": "135",
+        "Minimum": "82",
+        "Maximum": "162"
+    },
+    {
+        "Datum": "20171001",
+        "Gemiddelde": "140",
+        "Minimum": "94",
+        "Maximum": "171"
+    },
+    {
+        "Datum": "20171002",
+        "Gemiddelde": "157",
+        "Minimum": "139",
+        "Maximum": "176"
+    },
+    {
+        "Datum": "20171003",
+        "Gemiddelde": "139",
+        "Minimum": "118",
+        "Maximum": "168"
+    },
+    {
+        "Datum": "20171004",
+        "Gemiddelde": "136",
+        "Minimum": "122",
+        "Maximum": "158"
+    },
+    {
+        "Datum": "20171005",
+        "Gemiddelde": "133",
+        "Minimum": "114",
+        "Maximum": "158"
+    },
+    {
+        "Datum": "20171006",
+        "Gemiddelde": "118",
+        "Minimum": "101",
+        "Maximum": "147"
+    },
+    {
+        "Datum": "20171007",
+        "Gemiddelde": "127",
+        "Minimum": "103",
+        "Maximum": "151"
+    },
+    {
+        "Datum": "20171008",
+        "Gemiddelde": "127",
+        "Minimum": "112",
+        "Maximum": "153"
+    },
+    {
+        "Datum": "20171009",
+        "Gemiddelde": "125",
+        "Minimum": "107",
+        "Maximum": "145"
+    },
+    {
+        "Datum": "20171010",
+        "Gemiddelde": "145",
+        "Minimum": "121",
+        "Maximum": "164"
+    },
+    {
+        "Datum": "20171011",
+        "Gemiddelde": "148",
+        "Minimum": "136",
+        "Maximum": "160"
+    },
+    {
+        "Datum": "20171012",
+        "Gemiddelde": "135",
+        "Minimum": "104",
+        "Maximum": "159"
+    },
+    {
+        "Datum": "20171013",
+        "Gemiddelde": "152",
+        "Minimum": "107",
+        "Maximum": "188"
+    },
+    {
+        "Datum": "20171014",
+        "Gemiddelde": "152",
+        "Minimum": "108",
+        "Maximum": "195"
+    },
+    {
+        "Datum": "20171015",
+        "Gemiddelde": "160",
+        "Minimum": "109",
+        "Maximum": "215"
+    },
+    {
+        "Datum": "20171016",
+        "Gemiddelde": "182",
+        "Minimum": "134",
+        "Maximum": "234"
+    },
+    {
+        "Datum": "20171017",
+        "Gemiddelde": "129",
+        "Minimum": "82",
+        "Maximum": "156"
+    },
+    {
+        "Datum": "20171018",
+        "Gemiddelde": "143",
+        "Minimum": "106",
+        "Maximum": "178"
+    },
+    {
+        "Datum": "20171019",
+        "Gemiddelde": "160",
+        "Minimum": "115",
+        "Maximum": "203"
+    },
+    {
+        "Datum": "20171020",
+        "Gemiddelde": "135",
+        "Minimum": "107",
+        "Maximum": "167"
+    },
+    {
+        "Datum": "20171021",
+        "Gemiddelde": "129",
+        "Minimum": "108",
+        "Maximum": "173"
+    },
+    {
+        "Datum": "20171022",
+        "Gemiddelde": "115",
+        "Minimum": "99",
+        "Maximum": "136"
+    },
+    {
+        "Datum": "20171023",
+        "Gemiddelde": "128",
+        "Minimum": "108",
+        "Maximum": "152"
+    },
+    {
+        "Datum": "20171024",
+        "Gemiddelde": "154",
+        "Minimum": "132",
+        "Maximum": "169"
+    },
+    {
+        "Datum": "20171025",
+        "Gemiddelde": "141",
+        "Minimum": "93",
+        "Maximum": "173"
+    },
+    {
+        "Datum": "20171026",
+        "Gemiddelde": "138",
+        "Minimum": "113",
+        "Maximum": "168"
+    },
+    {
+        "Datum": "20171027",
+        "Gemiddelde": "117",
+        "Minimum": "95",
+        "Maximum": "145"
+    },
+    {
+        "Datum": "20171028",
+        "Gemiddelde": "130",
+        "Minimum": "106",
+        "Maximum": "154"
+    },
+    {
+        "Datum": "20171029",
+        "Gemiddelde": "104",
+        "Minimum": "56",
+        "Maximum": "151"
+    },
+    {
+        "Datum": "20171030",
+        "Gemiddelde": "83",
+        "Minimum": "46",
+        "Maximum": "121"
+    },
+    {
+        "Datum": "20171031",
+        "Gemiddelde": "110",
+        "Minimum": "78",
+        "Maximum": "130"
+    },
+    {
+        "Datum": "20171101",
+        "Gemiddelde": "116",
+        "Minimum": "89",
+        "Maximum": "139"
+    },
+    {
+        "Datum": "20171102",
+        "Gemiddelde": "97",
+        "Minimum": "48",
+        "Maximum": "149"
+    },
+    {
+        "Datum": "20171103",
+        "Gemiddelde": "95",
+        "Minimum": "47",
+        "Maximum": "136"
+    },
+    {
+        "Datum": "20171104",
+        "Gemiddelde": "108",
+        "Minimum": "86",
+        "Maximum": "133"
+    },
+    {
+        "Datum": "20171105",
+        "Gemiddelde": "76",
+        "Minimum": "51",
+        "Maximum": "107"
+    },
+    {
+        "Datum": "20171106",
+        "Gemiddelde": "60",
+        "Minimum": "11",
+        "Maximum": "105"
+    },
+    {
+        "Datum": "20171107",
+        "Gemiddelde": "42",
+        "Minimum": "-2",
+        "Maximum": "94"
+    },
+    {
+        "Datum": "20171108",
+        "Gemiddelde": "62",
+        "Minimum": "18",
+        "Maximum": "79"
+    },
+    {
+        "Datum": "20171109",
+        "Gemiddelde": "88",
+        "Minimum": "62",
+        "Maximum": "120"
+    },
+    {
+        "Datum": "20171110",
+        "Gemiddelde": "93",
+        "Minimum": "63",
+        "Maximum": "121"
+    },
+    {
+        "Datum": "20171111",
+        "Gemiddelde": "77",
+        "Minimum": "39",
+        "Maximum": "109"
+    },
+    {
+        "Datum": "20171112",
+        "Gemiddelde": "60",
+        "Minimum": "44",
+        "Maximum": "77"
+    },
+    {
+        "Datum": "20171113",
+        "Gemiddelde": "69",
+        "Minimum": "33",
+        "Maximum": "107"
+    },
+    {
+        "Datum": "20171114",
+        "Gemiddelde": "81",
+        "Minimum": "42",
+        "Maximum": "106"
+    },
+    {
+        "Datum": "20171115",
+        "Gemiddelde": "100",
+        "Minimum": "91",
+        "Maximum": "110"
+    },
+    {
+        "Datum": "20171116",
+        "Gemiddelde": "95",
+        "Minimum": "46",
+        "Maximum": "115"
+    },
+    {
+        "Datum": "20171117",
+        "Gemiddelde": "61",
+        "Minimum": "18",
+        "Maximum": "111"
+    },
+    {
+        "Datum": "20171118",
+        "Gemiddelde": "76",
+        "Minimum": "51",
+        "Maximum": "98"
+    },
+    {
+        "Datum": "20171119",
+        "Gemiddelde": "72",
+        "Minimum": "35",
+        "Maximum": "100"
+    },
+    {
+        "Datum": "20171120",
+        "Gemiddelde": "85",
+        "Minimum": "53",
+        "Maximum": "120"
+    },
+    {
+        "Datum": "20171121",
+        "Gemiddelde": "119",
+        "Minimum": "109",
+        "Maximum": "127"
+    },
+    {
+        "Datum": "20171122",
+        "Gemiddelde": "109",
+        "Minimum": "93",
+        "Maximum": "129"
+    },
+    {
+        "Datum": "20171123",
+        "Gemiddelde": "106",
+        "Minimum": "71",
+        "Maximum": "146"
+    },
+    {
+        "Datum": "20171124",
+        "Gemiddelde": "67",
+        "Minimum": "37",
+        "Maximum": "96"
+    },
+    {
+        "Datum": "20171125",
+        "Gemiddelde": "44",
+        "Minimum": "1",
+        "Maximum": "81"
+    },
+    {
+        "Datum": "20171126",
+        "Gemiddelde": "62",
+        "Minimum": "38",
+        "Maximum": "81"
+    },
+    {
+        "Datum": "20171127",
+        "Gemiddelde": "76",
+        "Minimum": "55",
+        "Maximum": "103"
+    },
+    {
+        "Datum": "20171128",
+        "Gemiddelde": "57",
+        "Minimum": "26",
+        "Maximum": "85"
+    },
+    {
+        "Datum": "20171129",
+        "Gemiddelde": "31",
+        "Minimum": "6",
+        "Maximum": "52"
+    },
+    {
+        "Datum": "20171130",
+        "Gemiddelde": "19",
+        "Minimum": "-22",
+        "Maximum": "46"
+    },
+    {
+        "Datum": "20171201",
+        "Gemiddelde": "4",
+        "Minimum": "-43",
+        "Maximum": "46"
+    },
+    {
+        "Datum": "20171202",
+        "Gemiddelde": "-2",
+        "Minimum": "-41",
+        "Maximum": "16"
+    },
+    {
+        "Datum": "20171203",
+        "Gemiddelde": "53",
+        "Minimum": "15",
+        "Maximum": "89"
+    },
+    {
+        "Datum": "20171204",
+        "Gemiddelde": "73",
+        "Minimum": "48",
+        "Maximum": "91"
+    },
+    {
+        "Datum": "20171205",
+        "Gemiddelde": "84",
+        "Minimum": "71",
+        "Maximum": "93"
+    },
+    {
+        "Datum": "20171206",
+        "Gemiddelde": "86",
+        "Minimum": "69",
+        "Maximum": "102"
+    },
+    {
+        "Datum": "20171207",
+        "Gemiddelde": "62",
+        "Minimum": "47",
+        "Maximum": "78"
+    },
+    {
+        "Datum": "20171208",
+        "Gemiddelde": "34",
+        "Minimum": "9",
+        "Maximum": "63"
+    },
+    {
+        "Datum": "20171209",
+        "Gemiddelde": "34",
+        "Minimum": "8",
+        "Maximum": "58"
+    },
+    {
+        "Datum": "20171210",
+        "Gemiddelde": "8",
+        "Minimum": "0",
+        "Maximum": "17"
+    },
+    {
+        "Datum": "20171211",
+        "Gemiddelde": "2",
+        "Minimum": "-36",
+        "Maximum": "18"
+    },
+    {
+        "Datum": "20171212",
+        "Gemiddelde": "19",
+        "Minimum": "4",
+        "Maximum": "50"
+    },
+    {
+        "Datum": "20171213",
+        "Gemiddelde": "37",
+        "Minimum": "8",
+        "Maximum": "65"
+    },
+    {
+        "Datum": "20171214",
+        "Gemiddelde": "35",
+        "Minimum": "4",
+        "Maximum": "65"
+    },
+    {
+        "Datum": "20171215",
+        "Gemiddelde": "23",
+        "Minimum": "-20",
+        "Maximum": "45"
+    },
+    {
+        "Datum": "20171216",
+        "Gemiddelde": "24",
+        "Minimum": "-13",
+        "Maximum": "64"
+    },
+    {
+        "Datum": "20171217",
+        "Gemiddelde": "27",
+        "Minimum": "-24",
+        "Maximum": "66"
+    },
+    {
+        "Datum": "20171218",
+        "Gemiddelde": "59",
+        "Minimum": "2",
+        "Maximum": "82"
+    },
+    {
+        "Datum": "20171219",
+        "Gemiddelde": "56",
+        "Minimum": "6",
+        "Maximum": "81"
+    },
+    {
+        "Datum": "20171220",
+        "Gemiddelde": "77",
+        "Minimum": "50",
+        "Maximum": "91"
+    },
+    {
+        "Datum": "20171221",
+        "Gemiddelde": "84",
+        "Minimum": "74",
+        "Maximum": "91"
+    },
+    {
+        "Datum": "20171222",
+        "Gemiddelde": "84",
+        "Minimum": "51",
+        "Maximum": "99"
+    },
+    {
+        "Datum": "20171223",
+        "Gemiddelde": "86",
+        "Minimum": "80",
+        "Maximum": "92"
+    },
+    {
+        "Datum": "20171224",
+        "Gemiddelde": "85",
+        "Minimum": "77",
+        "Maximum": "96"
+    },
+    {
+        "Datum": "20171225",
+        "Gemiddelde": "76",
+        "Minimum": "46",
+        "Maximum": "99"
+    },
+    {
+        "Datum": "20171226",
+        "Gemiddelde": "58",
+        "Minimum": "45",
+        "Maximum": "74"
+    },
+    {
+        "Datum": "20171227",
+        "Gemiddelde": "53",
+        "Minimum": "36",
+        "Maximum": "70"
+    },
+    {
+        "Datum": "20171228",
+        "Gemiddelde": "43",
+        "Minimum": "19",
+        "Maximum": "56"
+    },
+    {
+        "Datum": "20171229",
+        "Gemiddelde": "32",
+        "Minimum": "-4",
+        "Maximum": "73"
+    },
+    {
+        "Datum": "20171230",
+        "Gemiddelde": "87",
+        "Minimum": "39",
+        "Maximum": "118"
+    },
+    {
+        "Datum": "20171231",
+        "Gemiddelde": "104",
+        "Minimum": "80",
+        "Maximum": "131"
     }
 ]

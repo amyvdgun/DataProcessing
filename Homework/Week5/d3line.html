@@ -7,16 +7,20 @@ Amy van der Gun
 <meta charset="utf-8">
 <html>
 	<head>
-		<title>D3 Line</title>
-		<h1>D3 Line</h1>
+		<title>Temperaturen Schiphol</title>
+		<h1>Temperaturen Schiphol</h1>
 		<link rel="stylesheet" type="text/css" href="d3line.css">
+		<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+		<script src="https://d3js.org/queue.v1.min.js" charset="utf-8"></script>
+		<script src="d3line.js" type="text/javascript"></script>
 	</head>
 	<body>
+	    <select id="dropdown">
+	    	<option value="2016">2016</option>
+	    	<option value="2017">2017</option>
+	    </select><br>
 		<svg class="d3line"></svg><br>
 		Amy van der Gun<br>
-		<a href="https://opendata.cbs.nl/statline/#/CBS/nl/dataset/37943ned/table?ts=1520028448406">Data source</a>
+		<a href="https://www.knmi.nl/nederland-nu/klimatologie">Data</a>
 	</body>
-	<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
-	<script src="https://d3js.org/queue.v1.min.js" charset="utf-8"></script>
-	<script src="d3line.js" type="text/javascript"></script>
 </html>

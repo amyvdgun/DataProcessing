@@ -13,6 +13,11 @@ body {
 	text-align: center;
 }
 
+.dropdown {
+	text-align: left;
+}
+
+
 .axis path,
 .axis line {
   fill: none;
@@ -22,6 +27,7 @@ body {
 
 .line {
 	fill: none;
-	stroke-width: 2px;
+	stroke-width: 1.5px;
 }
+
 
