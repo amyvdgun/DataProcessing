@@ -5,7 +5,9 @@
 * barchart.js
 *
 * Creates an interactive barchart using data from a json file.
-* USE: https://bl.ocks.org/syncopika/f1c9036b0deb058454f825238a95b6be 
+*
+* With help from: 
+* https://bl.ocks.org/syncopika/f1c9036b0deb058454f825238a95b6be 
 */
 
 function createBarchart(alldata, chosenState) {
