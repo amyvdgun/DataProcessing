@@ -5,14 +5,15 @@
 * barchart.js
 *
 * Creates an interactive barchart using data from a json file.
+* USE: https://bl.ocks.org/syncopika/f1c9036b0deb058454f825238a95b6be 
 */
 
-function createBarchart (data, us) {
+function createBarchart(alldata, chosenState) {
   
   // set the outer and inner width and height
-  var margin = {top: 20, bottom: 20, left: 20, right: 20},
-      height = 550 - margin.top - margin.bottom,
-      width = 1200 - margin.left - margin.right;
+  var margin = {top: 20, bottom: 20, left: 200, right: 200},
+    height = 550 - margin.top - margin.bottom,
+    width = 1200 - margin.left - margin.right;
 
   // set the chart sizes
   var chart = d3.select("#barchart")
@@ -22,29 +23,42 @@ function createBarchart (data, us) {
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  var dataArray = [];
-  var dateArray = ["2011", "2012", "2013", "2014", "2015", "2016", "2017"];
-  data.forEach(function (d) {
-    dataArray.push(+d.Births2011);
-    dataArray.push(+d.Births2012);
-    dataArray.push(+d.Births2013);
-    dataArray.push(+d.Births2014);
-    dataArray.push(+d.Births2015);
-    dataArray.push(+d.Births2016);
-    dataArray.push(+d.Births2017);
-  });
+  // add the tooltip and its content
+  var tip = d3.tip()
+    .attr("class", "d3-tip")
+    .offset([-10, 0])
+    .html(function (d) {
+      return (d)});
 
-  var min = d3.min(dataArray);
-  var max = d3.max(dataArray);
+  // start the tip
+  chart.call(tip);
+
+  // create arrays for the json data
+  var years = ["2011", "2012", "2013", "2014", "2015", "2016", "2017"];
+  var babies = [];
+
+  // iterate over the data and push to the right array
+  for (var i = 0; i < alldata.length; i++) {
+    if (alldata[i].StateName === chosenState) {
+      babies.push(alldata[i].Births2011);
+      babies.push(alldata[i].Births2012);
+      babies.push(alldata[i].Births2013);
+      babies.push(alldata[i].Births2014);
+      babies.push(alldata[i].Births2015);
+      babies.push(alldata[i].Births2016);
+      babies.push(alldata[i].Births2017);
+    }
+  }
 
   // set the range and domain for x 
-  var x = d3.scaleOrdinal()
-    .range([0, width])
-    .domain(dateArray);
+  var x = d3.scaleBand()
+    .range([0, width], .1)
+    .padding(0.4)
+    .domain(years);
 
   // set the range and domain for y
   var y = d3.scaleLinear()
-    .domain([0, max])
+    .domain([0, d3.max(babies)])
     .range([height, 0]);
 
   // create and draw x-axis on desired position and set label
@@ -77,43 +91,78 @@ function createBarchart (data, us) {
 
   // add bars with linked data to the chart
   chart.selectAll(".bar")
-    .data(data)
+    .data(babies)
   .enter().append("rect")
     .attr("class", "bar")
-    .attr("x", function(dateArray) { return x(dateArray["2011"]); })
-    .attr("y", function(dataArray) { return y(dataArray.Births2011); })
-    .attr("height", function(dataArray) { return height - y(dataArray.Births2011); })
-    //.attr("width", x.rangeBand())
+    .attr("x", function(d, i) { return x(years[i]); })
+    .attr("y", function(d) { return y(d); })
+    .attr("height", function(d) { return height - y(d); })
+    .attr("width", x.bandwidth())
+    .on("mouseover", tip.show)
+    .on("mouseout", tip.hide)
+      .style("fill", "pink");
+}
 
+function update(alldata, state) {
 
+  // set the outer and inner width and height
+  var margin = {top: 20, bottom: 20, left: 200, right: 200},
+    height = 550 - margin.top - margin.bottom,
+    width = 1200 - margin.left - margin.right;
 
-  //  // iterate over the data file and separate into name and value
-  // for (var i = 0; i < data.length; i++) {
-  //   var dataState = data[i].StateName;
-  //   var value2011 = data[i].Births2011;
-  //   var value2012 = data[i].Births2012;
-  //   var value2013 = data[i].Births2013;
-  //   var value2014 = data[i].Births2014;
-  //   var value2015 = data[i].Births2015;
-  //   var value2016 = data[i].Births2016;
-  //   var value2017 = data[i].Births2017;
+  var chart = d3.select("#barchart").select("svg").select("g");
 
-  //   // iteratue over the us data file and store state name in variable
-  //   for (var j = 0; j < us.features.length; j++) {
-  //     var jsonState = us.features[j].properties.name;
+  var babies = [];
 
-  //     // link the population value if state names in the two files match
-  //     //if (dataState == jsonState) {
-  //       //us.features[j].properties.value = dataValue;
-  //       //break;
-  //     //}
-  //   }
-  // }
+  // iterate over the data and push to the right array
+  for (var i = 0; i < alldata.length; i++) {
+    if (alldata[i].StateName === state) {
+      babies.push(alldata[i].Births2011);
+      babies.push(alldata[i].Births2012);
+      babies.push(alldata[i].Births2013);
+      babies.push(alldata[i].Births2014);
+      babies.push(alldata[i].Births2015);
+      babies.push(alldata[i].Births2016);
+      babies.push(alldata[i].Births2017);
+    }
+  }
 
+  // add the tooltip and its content
+  var tip = d3.tip()
+    .attr("class", "d3-tip")
+    .offset([-10, 0])
+    .html(function (d) {
+      return (d)});
 
+  // start the tip
+  chart.call(tip);
 
+  // set the range and domain for y
+  var y = d3.scaleLinear()
+    .domain([0, d3.max(babies)])
+    .range([height, 0]);
 
+  // create and draw y-axis on desired position and set label
+  var yAxis = d3.axisLeft(y);
 
+  // call y axis and add transition
+  d3.select(".y.axis")
+    .transition()
+    .duration(1000)
+    .call(yAxis)
+
+  // select bars and link data 
+  var bars = chart.selectAll(".bar")
+    .data(babies);
+
+  // link new y coordinates to bars and add interactivity and transition
+  bars
+    .transition().duration(1000)
+    .attr("y", function(d) { return y(d); })
+    .attr("height", function(d) { return height - y(d); })
+    .on("mouseover", tip.show)
+    .on("mouseout", tip.hide)
+      .style("fill", "pink");
 
 }
 

@@ -53,19 +53,19 @@ window.onload = function() {
   d3.queue()
     .defer(d3.json, "us.json")
     .defer(d3.json, "alldata.json")
-    .await(function (error, us, data2017) {
+    .await(function (error, us, alldata) {
 
       // throw error if files cannot be loaded
       if (error) throw error;
 
       // create an empty array and push the population data in it
       var dataArray = [];
-      data2017.forEach(function (d) {
+      alldata.forEach(function (d) {
         d.Population = parseInt(d.Population);
         dataArray.push(+d.Population);
       });
 
-      createBarchart(data2017, us);
+      createBarchart(alldata, "Alabama");
 
       // determine the extreme values and set domain and range
       var min = d3.min(dataArray)
@@ -73,9 +73,9 @@ window.onload = function() {
       var color = d3.scaleLinear().domain([min,max]).range([lowColor,highColor])
       
       // iterate over the data file and separate into name and value
-      for (var i = 0; i < data2017.length; i++) {
-        var dataState = data2017[i].StateName;
-        var dataValue = data2017[i].Population;
+      for (var i = 0; i < alldata.length; i++) {
+        var dataState = alldata[i].StateName;
+        var dataValue = alldata[i].Population;
 
         // iteratue over the us data file and store state name in variable
         for (var j = 0; j < us.features.length; j++) {
@@ -99,7 +99,9 @@ window.onload = function() {
       .style("stroke-width", "1")
       .style("fill", function(d) { return color(d.properties.value) })
       .on("mouseover", tip.show)
-      .on("mouseout", tip.hide);
+      .on("mouseout", tip.hide)
+      .on("click", function(d) { var chosenState = d.properties.name;
+        update(alldata, chosenState); });
 
     // create the legend
     var key = d3.select("body")
