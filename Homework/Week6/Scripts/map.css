@@ -12,6 +12,11 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+  font: 20px sans-serif !important;
+  text-align: center;
+}
+
 body {
 	font: 12px sans-serif !important;
 	text-align: center;

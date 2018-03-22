@@ -13,7 +13,7 @@
 function createBarchart(alldata, chosenState) {
   
   // set the outer and inner width and height
-  var margin = {top: 20, bottom: 20, left: 200, right: 200},
+  var margin = {top: 40, bottom: 20, left: 200, right: 200},
     height = 450 - margin.top - margin.bottom,
     width = 1100 - margin.left - margin.right;
 
@@ -24,6 +24,8 @@ function createBarchart(alldata, chosenState) {
       .attr("height", height + margin.top + margin.bottom)
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  document.getElementById("barchartTitle").innerHTML = "Babies born in " + chosenState;
 
   // add the tooltip and its content
   var tip = d3.tip()
@@ -103,15 +105,20 @@ function createBarchart(alldata, chosenState) {
 function update(alldata, state) {
 
   // set the outer and inner width and height
-  var margin = {top: 20, bottom: 20, left: 200, right: 200},
+  var margin = {top: 40, bottom: 20, left: 200, right: 200},
     height = 450 - margin.top - margin.bottom,
     width = 1100 - margin.left - margin.right;
 
+  // select the element to change and store in chart variable
   var chart = d3.select("#barchart").select("svg").select("g");
 
+  // let the title change
+  document.getElementById("barchartTitle").innerHTML = "Babies born in " + state;
+
+  // create empty array
   var babies = [];
 
-  // iterate over the data and push to the right array
+  // iterate over the data and push state data to the babies array
   for (var i = 0; i < alldata.length; i++) {
     if (alldata[i].StateName === state) {
       babies.push(alldata[i].Births2011);
