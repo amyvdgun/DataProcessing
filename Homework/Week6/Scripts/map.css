@@ -3,6 +3,10 @@
 * 10791760
 */
 
+.navbar {
+  font: 12px sans-serif !important;
+}
+
 h1 {
 	font: 20px sans-serif !important;
 	text-align: center;

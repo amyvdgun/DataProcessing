@@ -15,7 +15,7 @@ window.onload = function() {
 
   // set the outer and inner width and height
   var margin = {top: 20, bottom: 20, left: 20, right: 20},
-      height = 550 - margin.top - margin.bottom,
+      height = 600 - margin.top - margin.bottom,
       width = 1200 - margin.left - margin.right;
 
   // set the colors corresponding to the highest and lowest values
@@ -104,7 +104,7 @@ window.onload = function() {
         update(alldata, chosenState); });
 
     // create the legend
-    var key = d3.select("body")
+    var key = d3.select("svg")
       .append("svg")
       .attr("width", 140)
       .attr("height", 150)
@@ -136,7 +136,7 @@ window.onload = function() {
       .attr("width", 20)
       .attr("height", 150)
       .style("fill", "url(#gradient)")
-      .attr("transform", "translate(0,10)");
+      .attr("transform", "translate(20,10)");
 
     // create y variable
     var y = d3.scaleLinear()
@@ -148,8 +148,8 @@ window.onload = function() {
 
     // set y axis
     key.append("g")
-      .attr("class", "y axis")
-      .attr("transform", "translate(21,10)")
+      .attr("class", "yaxis")
+      .attr("transform", "translate(41,10)")
       .call(yAxis)
     });
 
