@@ -14,8 +14,8 @@ function createBarchart(alldata, chosenState) {
   
   // set the outer and inner width and height
   var margin = {top: 20, bottom: 20, left: 200, right: 200},
-    height = 550 - margin.top - margin.bottom,
-    width = 1200 - margin.left - margin.right;
+    height = 450 - margin.top - margin.bottom,
+    width = 1100 - margin.left - margin.right;
 
   // set the chart sizes
   var chart = d3.select("#barchart")
@@ -63,29 +63,24 @@ function createBarchart(alldata, chosenState) {
     .domain([0, d3.max(babies)])
     .range([height, 0]);
 
-  // create and draw x-axis on desired position and set label
+  // create and draw x-axis on desired position
   var xAxis = d3.axisBottom(x);
   chart.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + height + ")")
-    .call(xAxis)
-    .append("text")
-    .attr("x", width)
-    .attr("y", margin.bottom/1.5)
-    .attr("dy", ".71em")
-    .style("text-anchor", "end")
-    .style("font", "12px sans-serif")
-    .text("Year");
+    .call(xAxis);
 
-  // create and draw y-axis on desired position and set label
+  // create and draw y-axis on desired position
   var yAxis = d3.axisLeft(y);
   chart.append("g")
     .attr("class", "y axis")
     .call(yAxis)
-    .append("text")
+
+  // set label of y axis
+  chart.append("text")
     .attr("transform", "rotate(-90)")
     .attr("x", 0)
-    .attr("y", -margin.left/1)
+    .attr("y", -margin.left / 2.5)
     .attr("dy", ".71em")
     .style("text-anchor", "end")
     .style("font", "12px sans-serif")
@@ -109,8 +104,8 @@ function update(alldata, state) {
 
   // set the outer and inner width and height
   var margin = {top: 20, bottom: 20, left: 200, right: 200},
-    height = 550 - margin.top - margin.bottom,
-    width = 1200 - margin.left - margin.right;
+    height = 450 - margin.top - margin.bottom,
+    width = 1100 - margin.left - margin.right;
 
   var chart = d3.select("#barchart").select("svg").select("g");
 
@@ -155,17 +150,16 @@ function update(alldata, state) {
 
   // select bars and link data 
   var bars = chart.selectAll(".bar")
-    .data(babies);
+    .data(babies)
+    .on("mouseover", tip.show)
+    .on("mouseout", tip.hide);
 
   // link new y coordinates to bars and add interactivity and transition
   bars
     .transition().duration(1000)
     .attr("y", function(d) { return y(d); })
     .attr("height", function(d) { return height - y(d); })
-    .on("mouseover", tip.show)
-    .on("mouseout", tip.hide)
-      .style("fill", "pink");
-
+    .style("fill", "pink");
 }
 
 

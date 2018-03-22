@@ -4,16 +4,15 @@
 */
 
 h1 {
-	font: 20px sans-serif;
+	font: 20px sans-serif !important;
 	text-align: center;
 }
 
 body {
-	font: 12px sans-serif;
+	font: 12px sans-serif !important;
 	text-align: center;
 }
-        
-/* Legend Position Style */
+
 .legend {
 	position:absolute;
 	left:20px;
@@ -22,6 +21,7 @@ body {
 
 .axis text {
 	font: 10px sans-serif;
+  color: black;
 }
 
 .axis line, .axis path {
@@ -41,7 +41,7 @@ body {
 .d3-tip:after {
   box-sizing: border-box;
   display: inline;
-  font-size: 10px;
+  font-size: 10px !important;
   width: 100%;
   line-height: 1;
   color: rgba(0, 0, 0, 0.8);
