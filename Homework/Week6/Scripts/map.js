@@ -65,6 +65,7 @@ window.onload = function() {
         dataArray.push(+d.Population);
       });
 
+      // create barchart and use Alabama as the default state
       createBarchart(alldata, "Alabama");
 
       // determine the extreme values and set domain and range
@@ -152,7 +153,6 @@ window.onload = function() {
       .attr("transform", "translate(41,10)")
       .call(yAxis)
     });
-
 };
 
 

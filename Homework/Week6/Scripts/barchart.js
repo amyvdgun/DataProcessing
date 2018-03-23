@@ -10,6 +10,7 @@
 * https://bl.ocks.org/syncopika/f1c9036b0deb058454f825238a95b6be 
 */
 
+// creates the barchart using a json file and users input
 function createBarchart(alldata, chosenState) {
   
   // set the outer and inner width and height
@@ -25,6 +26,7 @@ function createBarchart(alldata, chosenState) {
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+  // create interactive title
   document.getElementById("barchartTitle").innerHTML = "Babies born in " + chosenState;
 
   // add the tooltip and its content
@@ -102,6 +104,7 @@ function createBarchart(alldata, chosenState) {
       .style("fill", "pink");
 }
 
+// this functions updates the barchart when user clicks on particular state
 function update(alldata, state) {
 
   // set the outer and inner width and height

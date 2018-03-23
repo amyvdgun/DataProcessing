@@ -7,6 +7,22 @@
   font: 12px sans-serif !important;
 }
 
+.navbar .navbar-form .form-control {
+  font: 12px sans-serif !important;
+}
+
+.form-control:focus {
+  border-color: #bc2a66 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn:focus {
+  border-color: #bc2a66 !important;
+  outline: 0 !important;*/
+  box-shadow: none !important;
+}
+
 h1 {
 	font: 20px sans-serif !important;
 	text-align: center;
@@ -15,6 +31,16 @@ h1 {
 h2 {
   font: 20px sans-serif !important;
   text-align: center;
+}
+
+p.ex1 {
+  font: 14px sans-serif;
+  margin: 35px 200px 35px 200px;
+}
+
+p.ex2{
+  font: 14px sans-serif;
+  margin: 35px 200px 35px 200px;
 }
 
 body {
