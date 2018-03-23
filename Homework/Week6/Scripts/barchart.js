@@ -15,7 +15,7 @@ function createBarchart(alldata, chosenState) {
   
   // set the outer and inner width and height
   var margin = {top: 40, bottom: 20, left: 200, right: 200},
-    height = 450 - margin.top - margin.bottom,
+    height = 500 - margin.top - margin.bottom,
     width = 1100 - margin.left - margin.right;
 
   // set the chart sizes
@@ -110,7 +110,7 @@ function update(alldata, state) {
 
   // set the outer and inner width and height
   var margin = {top: 40, bottom: 20, left: 200, right: 200},
-    height = 450 - margin.top - margin.bottom,
+    height = 500 - margin.top - margin.bottom,
     width = 1100 - margin.left - margin.right;
 
   // select the element to change and store in chart variable
@@ -140,7 +140,8 @@ function update(alldata, state) {
     .attr("class", "d3-tip")
     .offset([-10, 0])
     .html(function (d) {
-      return (d)});
+      var formatting = d3.format(",");
+      return (formatting(d))});
 
   // start the tip
   chart.call(tip);
@@ -172,6 +173,25 @@ function update(alldata, state) {
     .attr("y", function(d) { return y(d); })
     .attr("height", function(d) { return height - y(d); })
     .style("fill", "#AF9483");
+}
+
+function searchState() {
+
+    var input = document.getElementById("inputState");
+    var filter = input.value.toUpperCase();
+
+    console.log(input);
+    console.log(filter);
+
+    // // Loop through all list items, and hide those who don't match the search query
+    // for (i = 0; i < li.length; i++) {
+    //     a = li[i].getElementsByTagName("a")[0];
+    //     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+    //         li[i].style.display = "";
+    //     } else {
+    //         li[i].style.display = "none";
+    //     }
+    // }
 }
 
 

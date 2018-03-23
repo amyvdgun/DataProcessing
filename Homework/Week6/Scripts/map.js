@@ -15,8 +15,8 @@ window.onload = function() {
 
   // set the outer and inner width and height
   var margin = {top: 20, bottom: 20, left: 20, right: 20},
-      height = 600 - margin.top - margin.bottom,
-      width = 1200 - margin.left - margin.right;
+      height = 500 - margin.top - margin.bottom,
+      width = 1100 - margin.left - margin.right;
 
   // set the colors corresponding to the highest and lowest values
   var lowColor = "#f9f9f9"
