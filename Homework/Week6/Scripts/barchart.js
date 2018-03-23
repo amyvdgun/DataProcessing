@@ -10,7 +10,7 @@
  * https://bl.ocks.org/syncopika/f1c9036b0deb058454f825238a95b6be
  */
 
-// creates the barchart using a json file and users input
+// this function creates the barchart using a json file and users input
 function createBarchart(alldata, chosenState) {
 
     // set the outer and inner width and height
@@ -112,7 +112,7 @@ function createBarchart(alldata, chosenState) {
         .style("fill", "#AF9483");
 }
 
-// this functions updates the barchart when user clicks on particular state
+// this function updates the barchart when user clicks on particular state
 function update(alldata, state) {
 
     // set the outer and inner width and height
@@ -187,15 +187,21 @@ function update(alldata, state) {
         .style("fill", "#AF9483");
 }
 
+// this function responds to the users input and updates bar chart
 function searchState() {
+    
+    // load in the json files
     d3.queue()
         .defer(d3.json, "us.json")
         .defer(d3.json, "alldata.json")
         .await(function (error, us, alldata) {
+
+            // store input from user and parse into upper case
             var input = document.getElementById("inputState");
             var filter = input.value.toUpperCase();
             var found = false;
 
+            // check whether the input is a valid state name using us.json
             for (var i = 0; i < us.features.length; i++) {
                 if (us.features[i].properties.name.toUpperCase() === filter) {
                     update(alldata, us.features[i].properties.name);
@@ -203,6 +209,7 @@ function searchState() {
                 }
             }
 
+            // alert if the input is not a valid state name
             if (!found) {
                 alert("You did not spell the state name correctly!");
             }
