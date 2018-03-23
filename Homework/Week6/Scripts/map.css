@@ -12,19 +12,20 @@
 }
 
 .form-control:focus {
-  border-color: #bc2a66 !important;
+  border-color: #92B558 !important;
   outline: 0 !important;
   box-shadow: none !important;
 }
 
 .btn:focus {
   border-color: #bc2a66 !important;
-  outline: 0 !important;*/
+  outline: 0 !important;
   box-shadow: none !important;
 }
 
 h1 {
-	font: 20px sans-serif !important;
+	margin-top: 85px !important;
+  font: 20px sans-serif !important;
 	text-align: center;
 }
 
@@ -57,6 +58,10 @@ body {
 .axis text {
 	font: 10px sans-serif;
   color: black;
+}
+
+path:hover {
+  fill: #AF9483 !important;
 }
 
 .axis line, .axis path {

@@ -34,7 +34,8 @@ function createBarchart(alldata, chosenState) {
     .attr("class", "d3-tip")
     .offset([-10, 0])
     .html(function (d) {
-      return (d)});
+      var formatting = d3.format(",");
+      return (formatting(d))});
 
   // start the tip
   chart.call(tip);
@@ -101,7 +102,7 @@ function createBarchart(alldata, chosenState) {
     .attr("width", x.bandwidth())
     .on("mouseover", tip.show)
     .on("mouseout", tip.hide)
-      .style("fill", "pink");
+    .style("fill", "#AF9483");
 }
 
 // this functions updates the barchart when user clicks on particular state
@@ -162,14 +163,15 @@ function update(alldata, state) {
   var bars = chart.selectAll(".bar")
     .data(babies)
     .on("mouseover", tip.show)
-    .on("mouseout", tip.hide);
+    .on("mouseout", tip.hide)
+    .style("fill", "#AF9483");
 
   // link new y coordinates to bars and add interactivity and transition
   bars
     .transition().duration(1000)
     .attr("y", function(d) { return y(d); })
     .attr("height", function(d) { return height - y(d); })
-    .style("fill", "pink");
+    .style("fill", "#AF9483");
 }
 
 

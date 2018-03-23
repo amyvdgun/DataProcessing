@@ -20,7 +20,7 @@ window.onload = function() {
 
   // set the colors corresponding to the highest and lowest values
   var lowColor = "#f9f9f9"
-  var highColor = "#bc2a66"
+  var highColor = "#92B558"
 
   // scale and center to the screen
   var projection = d3.geoAlbersUsa()
@@ -36,7 +36,8 @@ window.onload = function() {
       .attr("class", "d3-tip")
       .offset([-10, 0])
       .html(function (d) {
-        return ("State: " + d.properties.name + "<br>" + "Population: " + d.properties.value)});
+        var formatting = d3.format(",");
+        return ("State: " + d.properties.name + "<br>" + "Population: " + formatting(d.properties.value))});
 
   // add the SVG element and set characteristics
   var svg = d3.select("#map")
