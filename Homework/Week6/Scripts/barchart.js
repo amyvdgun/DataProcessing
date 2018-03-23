@@ -14,7 +14,7 @@
 function createBarchart(alldata, chosenState) {
   
   // set the outer and inner width and height
-  var margin = {top: 40, bottom: 20, left: 200, right: 200},
+  var margin = {top: 40, bottom: 40, left: 200, right: 200},
     height = 500 - margin.top - margin.bottom,
     width = 1100 - margin.left - margin.right;
 
@@ -109,7 +109,7 @@ function createBarchart(alldata, chosenState) {
 function update(alldata, state) {
 
   // set the outer and inner width and height
-  var margin = {top: 40, bottom: 20, left: 200, right: 200},
+  var margin = {top: 40, bottom: 40, left: 200, right: 200},
     height = 500 - margin.top - margin.bottom,
     width = 1100 - margin.left - margin.right;
 
@@ -175,7 +175,7 @@ function update(alldata, state) {
     .style("fill", "#AF9483");
 }
 
-function searchState() {
+function searchState(alldata) {
 
     var input = document.getElementById("inputState");
     var filter = input.value.toUpperCase();
