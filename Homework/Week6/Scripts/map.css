@@ -4,94 +4,94 @@
 */
 
 .navbar {
-  font: 12px sans-serif !important;
+    font: 12px sans-serif !important;
 }
 
 .navbar .navbar-form .form-control {
-  font: 12px sans-serif !important;
+    font: 12px sans-serif !important;
 }
 
 .form-control:focus {
-  border-color: #92B558 !important;
-  outline: 0 !important;
-  box-shadow: none !important;
+    border-color: #92B558 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 
 .btn:focus {
-  border-color: #92B558!important;
-  outline: 0 !important;
-  box-shadow: none !important;
+    border-color: #92B558 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 
 h1 {
-	margin-top: 85px !important;
-  font: 20px sans-serif !important;
-	text-align: center;
+    margin-top: 85px !important;
+    font: 20px sans-serif !important;
+    text-align: center;
 }
 
 h2 {
-  font: 20px sans-serif !important;
-  text-align: center;
+    font: 20px sans-serif !important;
+    text-align: center;
 }
 
 p.ex1 {
-  font: 14px sans-serif;
-  margin: 35px 200px 35px 200px;
+    font: 14px sans-serif;
+    margin: 35px 200px 35px 200px;
 }
 
-p.ex2{
-  font: 14px sans-serif;
-  margin: 35px 200px 35px 200px;
+p.ex2 {
+    font: 14px sans-serif;
+    margin: 35px 200px 35px 200px;
 }
 
 body {
-	font: 12px sans-serif !important;
-	text-align: center;
+    font: 12px sans-serif !important;
+    text-align: center;
 }
 
 .legend {
-	position:absolute;
-	left:20px;
-	top:30px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
 }
 
 .axis text {
-	font: 10px sans-serif;
-  color: black;
+    font: 10px sans-serif;
+    color: black;
 }
 
 path:hover {
-  fill: #AF9483 !important;
+    fill: #AF9483 !important;
 }
 
 .axis line, .axis path {
-	fill: none;
-	stroke: #000;
-	shape-rendering: crispEdges;
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
 
 .d3-tip {
-  line-height: 1.5;
-  padding: 8px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
+    line-height: 1.5;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
 }
 
 .d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px !important;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px !important;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
 }
 
 .d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
 }
