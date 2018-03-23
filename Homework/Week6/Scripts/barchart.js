@@ -204,7 +204,7 @@ function searchState() {
             }
 
             if (!found) {
-                alert('Niet gevonden!!!');
+                alert("You did not spell the state name correctly!");
             }
         });
 }
